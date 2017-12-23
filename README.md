@@ -1,8 +1,7 @@
 # Basic-Algorithm-Problem
-|   Problem    |                Reference                 |    Date    | Review Date |
-| :----------: | :--------------------------------------: | :--------: | :---------: |
-| 0/1 Knapsack | [Top Down Solution][1]  <br>[Bottom Up Solution][2] | 2017.12.23 |             |
-|              |                                          |            |             |
+|   Problem    |                Reference                 |    Date     | Review Date |
+| :----------: | :--------------------------------------: | :---------: | :---------: |
+| 0/1 Knapsack | [Top Down Solution][1]  <br>[Bottom Up Solution][2] | d2017.12.23 |             |
 
 
 

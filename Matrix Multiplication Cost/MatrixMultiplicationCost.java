@@ -1,6 +1,6 @@
 public class MatrixMultiplicationCost {
     public static void main(String[] args) {
-        int[] arr = new int[]{2,3,6,4,5};
+        int[] arr = new int[]{5,10,3,12,5,50,6};
         System.out.println(findCost(arr));
         System.out.println(findCostRecursion(arr, 1, arr.length - 1));
     }

@@ -10,7 +10,7 @@ public class QuickSort {
     public static int partition(int[] arr, int begin, int end) {
         int pivot = arr[end];
         int index = begin - 1;
-        for (int i = begin; i < end - 1; i++) {
+        for (int i = begin; i < end; i++) {
             if (arr[i] < pivot) {
                 index++;
                 swap(arr, index, i);
@@ -34,7 +34,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1,4,5,3,7,2};
+        int[] arr = new int[]{1,4,-5,100,6,10,3,7,2};
         quicksort(arr, 0, arr.length - 1);
         showArray(arr);
     }

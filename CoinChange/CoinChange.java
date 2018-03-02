@@ -12,7 +12,6 @@ public class CoinChange {
         int len = D.length;
         int[][] track = new int[N + 1][len];
         for (int i = 0; i < len; i++) {
-            // Track is used to record how many coins left at current value and current coin
             track[0][i] = limit[i];
         }
         for (int j = 1; j <= N; j++) {

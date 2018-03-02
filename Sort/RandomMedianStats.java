@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class RandomMedianStats {
     public static int medianStats(int[] arr, int start, int end, int k) {
         if (k > 0 && k <= end - start + 1) {
@@ -30,7 +32,9 @@ public class RandomMedianStats {
 
     public static int randomPartition(int[] arr, int start, int end) {
         int n = end - start + 1;
-        int pivot = (int)(Math.random()) % n;
+        System.out.println(n);
+        int pivot = (int)(Math.random() * n);
+        System.out.println(pivot);
         swap(arr, start + pivot, end);
         return partition(arr, start, end);
     }

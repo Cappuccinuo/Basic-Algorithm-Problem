@@ -1,22 +1,22 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.io.FileWriter;
+import java.util.List;
+import java.util.LinkedList;
 
-public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
-    private ArrayList<HashNode<K, V>> bucketArray;
+
+public class MyHashMap<K, Integer> implements Iterable<MyHashMap.HashNode<K, Integer>> {
+    private ArrayList<HashNode<K, Integer>> bucketArray;
     private int numBuckets;
     private int size;
-    public int collision;
     String formatStr = "Word: %-20s Frequency: %-15s%n";
 
     public MyHashMap(int numBucket) {
         bucketArray = new ArrayList<>();
         numBuckets = numBucket;
         size = 0;
-        collision = 0;
         for (int i = 0; i < numBuckets; i++) {
             bucketArray.add(null);
         }
@@ -31,7 +31,7 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
                     fw.write("Slot: " + i);
                     fw.flush();
                     fw.write("\n");
-                    HashNode<K, V> head = bucketArray.get(i);
+                    HashNode<K, Integer> head = bucketArray.get(i);
                     while (head != null) {
                         fw.write(String.format(formatStr, head.key, head.value));
                         fw.flush();
@@ -69,37 +69,34 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
         return index;
     }
 
-    public void insert(K key, V value) {
+    public void insert(K key, Integer value) {
         int bucketIndex = getBucketIndex(key);
-        HashNode<K, V> head = bucketArray.get(bucketIndex);
+        HashNode<K, Integer> head = bucketArray.get(bucketIndex);
 
         while (head != null) {
             if (head.key.equals(key)) {
                 head.value = value;
                 return;
             }
-            else {
-                collision++;  // Fix me
-            }
             head = head.next;
         }
 
         size++;
         head = bucketArray.get(bucketIndex);
-        HashNode<K, V> newNode = new HashNode<K, V>(key, value);
+        HashNode<K, Integer> newNode = new HashNode<K, Integer>(key, value);
         newNode.next = head;
         bucketArray.set(bucketIndex, newNode);
 
         if ((1.0 * size) / numBuckets >= 0.7) {
-            ArrayList<HashNode<K, V>> temp = bucketArray;
+            ArrayList<HashNode<K, Integer>> temp = bucketArray;
             bucketArray = new ArrayList<>();
             numBuckets = 2 * numBuckets;
             size = 0;
-            collision = 0;
+
             for (int i = 0; i < numBuckets; i++) {
                 bucketArray.add(null);
             }
-            for (HashNode<K, V> headNode : temp) {
+            for (HashNode<K, Integer> headNode : temp) {
                 while (headNode != null) {
                     insert(headNode.key, headNode.value);
                     headNode = headNode.next;
@@ -110,8 +107,8 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
 
     public void delete(K key) {
         int bucketIndex = getBucketIndex(key);
-        HashNode<K, V> head = bucketArray.get(bucketIndex);
-        HashNode<K, V> prev = null;
+        HashNode<K, Integer> head = bucketArray.get(bucketIndex);
+        HashNode<K, Integer> prev = null;
         while (head != null) {
             if (head.key.equals(key)) {
                 break;
@@ -134,13 +131,48 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
     }
 
     public void increase(K key) {
+        int bucketIndex = getBucketIndex(key);
+        HashNode<K, Integer> head = bucketArray.get(bucketIndex);
+        while (head != null) {
+            if (key.equals(head.key)) {
+                System.out.println(head.value);
+                return;
+            }
+            head = head.next;
+        }
+        System.out.println("No such key.");
         return;
+    }
+
+    public int countAllCollisions() {
+        int count = -1;
+        int slot = 0;
+        int result = 0;
+        for (int i = 0; i < bucketArray.size(); i++) {
+            if (bucketArray.get(i) != null) {
+                HashNode<K, Integer> head = bucketArray.get(i);
+                while (head != null) {
+                    count++;
+                    head = head.next;
+                }
+
+                if (count != 0) {
+                    result += count;
+                    slot++;
+                    count = -1;
+                }
+                else {
+                    count = -1;
+                }
+            }
+        }
+        return result;
     }
 
     public int countCollisions(K key) {
         int bucketIndex = getBucketIndex(key);
         int count = 0;
-        HashNode<K, V> head = bucketArray.get(bucketIndex);
+        HashNode<K, Integer> head = bucketArray.get(bucketIndex);
         while (head != null) {
             if (!key.equals(head.key)) {
                 count++;
@@ -149,9 +181,9 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
         return count;
     }
 
-    public V find(K key) {
+    public Integer find(K key) {
         int bucketIndex = getBucketIndex(key);
-        HashNode<K, V> head = bucketArray.get(bucketIndex);
+        HashNode<K, Integer> head = bucketArray.get(bucketIndex);
         while (head != null) {
             if (head.key.equals(key)) {
                 return head.value;
@@ -161,20 +193,30 @@ public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
         return null;
     }
 
-    public void list_all_keys() {
-        return;
+    public List<K> list_all_keys() {
+        List<K> list = new LinkedList<>();
+        for (int i = 0; i < bucketArray.size(); i++) {
+            if (bucketArray.get(i) != null) {
+                HashNode<K, Integer> head = bucketArray.get(i);
+                while (head != null) {
+                    list.add(head.key);
+                    head = head.next;
+                }
+            }
+        }
+        return list;
     }
 
     @Override
-    public Iterator<HashNode<K, V>> iterator() {
+    public Iterator<HashNode<K, Integer>> iterator() {
         return null;
     }
 
-    public static class HashNode<K, V> {
+    public static class HashNode<K, Integer> {
         K key;
-        V value;
-        HashNode<K, V> next;
-        HashNode(K key, V value) {
+        Integer value;
+        HashNode<K, Integer> next;
+        HashNode(K key, Integer value) {
             this.key = key;
             this.value = value;
         }

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 
 public class Test {
     public static void main(String[] args) throws FileNotFoundException {
-        MyHashMap<Word, Integer> map = new MyHashMap<>(300);
+        MyHashMap<Word, Integer> map = new MyHashMap<>(10);
         Scanner in = new Scanner(new FileReader("log.txt"));
         int val;
         int wordCount = 0;
@@ -21,7 +21,7 @@ public class Test {
                 val = 1;
             }
             else {
-                val = (int) map.find(newWord);
+                val = map.find(newWord);
                 val++;
             }
             map.insert(newWord, val);
@@ -29,8 +29,11 @@ public class Test {
 
         System.out.println(map.size());
         System.out.println(wordCount);
-        System.out.println(map.collision);
+        System.out.println(map.countAllCollisions());
+        System.out.println(map.list_all_keys());
 
+        Word a = new Word("will");
+        map.increase(a);
         FileWriter fw = null;
 
         map.printBucket();

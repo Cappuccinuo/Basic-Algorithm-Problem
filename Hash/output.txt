@@ -1,0 +1,247 @@
+Slot: 0
+Word: materials            Frequency: 1              
+
+Slot: 3
+Word: first                Frequency: 2              
+
+Slot: 6
+Word: each                 Frequency: 2              
+
+Slot: 13
+Word: my                   Frequency: 1              
+
+Slot: 17
+Word: during               Frequency: 1              
+
+Slot: 18
+Word: students             Frequency: 1              
+
+Slot: 19
+Word: four                 Frequency: 1              
+Word: time                 Frequency: 2              
+Word: please               Frequency: 1              
+
+Slot: 27
+Word: of                   Frequency: 6              
+
+Slot: 38
+Word: tools                Frequency: 1              
+
+Slot: 40
+Word: be                   Frequency: 1              
+
+Slot: 42
+Word: own                  Frequency: 1              
+
+Slot: 43
+Word: the                  Frequency: 10             
+
+Slot: 45
+Word: make                 Frequency: 1              
+
+Slot: 48
+Word: should               Frequency: 1              
+
+Slot: 51
+Word: file                 Frequency: 3              
+
+Slot: 54
+Word: to                   Frequency: 2              
+
+Slot: 60
+Word: use                  Frequency: 1              
+
+Slot: 63
+Word: entry                Frequency: 2              
+
+Slot: 72
+Word: stopped              Frequency: 1              
+
+Slot: 76
+Word: certify              Frequency: 1              
+
+Slot: 80
+Word: with                 Frequency: 1              
+Word: session              Frequency: 3              
+
+Slot: 83
+Word: about                Frequency: 1              
+
+Slot: 86
+Word: commit               Frequency: 3              
+
+Slot: 87
+Word: except               Frequency: 1              
+
+Slot: 90
+Word: that                 Frequency: 1              
+
+Slot: 94
+Word: course               Frequency: 1              
+
+Slot: 96
+Word: a                    Frequency: 1              
+
+Slot: 99
+Word: what                 Frequency: 1              
+
+Slot: 102
+Word: automated            Frequency: 1              
+
+Slot: 103
+Word: part                 Frequency: 1              
+
+Slot: 109
+Word: record               Frequency: 1              
+
+Slot: 112
+Word: spend                Frequency: 1              
+
+Slot: 121
+Word: may                  Frequency: 1              
+
+Slot: 122
+Word: amount               Frequency: 2              
+
+Slot: 146
+Word: wish                 Frequency: 1              
+
+Slot: 149
+Word: one                  Frequency: 2              
+
+Slot: 155
+Word: class                Frequency: 1              
+
+Slot: 157
+Word: date                 Frequency: 1              
+
+Slot: 158
+Word: in                   Frequency: 1              
+
+Slot: 162
+Word: I                    Frequency: 1              
+
+Slot: 169
+Word: work                 Frequency: 3              
+
+Slot: 170
+Word: on                   Frequency: 1              
+Word: Every                Frequency: 1              
+
+Slot: 172
+Word: and                  Frequency: 2              
+
+Slot: 173
+Word: staff                Frequency: 1              
+
+Slot: 174
+Word: Each                 Frequency: 1              
+
+Slot: 175
+Word: at                   Frequency: 1              
+Word: hereby               Frequency: 1              
+
+Slot: 176
+Word: also                 Frequency: 1              
+
+Slot: 181
+Word: You                  Frequency: 1              
+
+Slot: 187
+Word: problem              Frequency: 1              
+Word: particular           Frequency: 1              
+
+Slot: 189
+Word: constitutes          Frequency: 1              
+
+Slot: 197
+Word: not                  Frequency: 1              
+
+Slot: 200
+Word: Do                   Frequency: 1              
+Word: version              Frequency: 1              
+
+Slot: 203
+Word: notes                Frequency: 1              
+
+Slot: 204
+Word: previous             Frequency: 1              
+Word: when                 Frequency: 1              
+Word: spent                Frequency: 1              
+
+Slot: 213
+Word: lines                Frequency: 2              
+
+Slot: 214
+Word: all                  Frequency: 1              
+
+Slot: 219
+Word: is                   Frequency: 1              
+
+Slot: 226
+Word: any                  Frequency: 2              
+
+Slot: 230
+Word: working              Frequency: 1              
+
+Slot: 231
+Word: format               Frequency: 1              
+Word: change               Frequency: 1              
+
+Slot: 235
+Word: so                   Frequency: 1              
+
+Slot: 242
+Word: recorded             Frequency: 1              
+
+Slot: 250
+Word: only                 Frequency: 1              
+
+Slot: 255
+Word: this                 Frequency: 5              
+
+Slot: 256
+Word: set                  Frequency: 1              
+
+Slot: 257
+Word: After                Frequency: 1              
+
+Slot: 265
+Word: for                  Frequency: 1              
+
+Slot: 267
+Word: you                  Frequency: 4              
+
+Slot: 269
+Word: replace              Frequency: 1              
+
+Slot: 271
+Word: will                 Frequency: 2              
+
+Slot: 276
+Word: there                Frequency: 1              
+
+Slot: 277
+Word: track                Frequency: 1              
+
+Slot: 285
+Word: did                  Frequency: 1              
+
+Slot: 291
+Word: log                  Frequency: 1              
+
+Slot: 292
+Word: updating             Frequency: 1              
+
+Slot: 294
+Word: two                  Frequency: 1              
+
+Slot: 297
+Word: edit                 Frequency: 1              
+
+Slot: 298
+Word: as                   Frequency: 2              
+
+Slot: 299
+Word: distributed          Frequency: 1              
+

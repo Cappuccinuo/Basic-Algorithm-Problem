@@ -1,35 +1,57 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.io.FileWriter;
 
-public class MyHashMap<K, V> {
+public class MyHashMap<K, V> implements Iterable<MyHashMap.HashNode<K, V>> {
     private ArrayList<HashNode<K, V>> bucketArray;
     private int numBuckets;
     private int size;
+    public int collision;
+    String formatStr = "Word: %-20s Frequency: %-15s%n";
 
-    public MyHashMap() {
+    public MyHashMap(int numBucket) {
         bucketArray = new ArrayList<>();
-        numBuckets = 10;
+        numBuckets = numBucket;
         size = 0;
+        collision = 0;
         for (int i = 0; i < numBuckets; i++) {
             bucketArray.add(null);
         }
     }
 
     public void printBucket() {
-        for (int i = 0; i < bucketArray.size(); i++) {
-            if (bucketArray.get(i) != null) {
-                System.out.println("Slot: " + i);
-                printKeyValue(bucketArray.get(i));
+        FileWriter fw = null;
+        try {
+            fw = new FileWriter("output.txt", false);
+            for (int i = 0; i < bucketArray.size(); i++) {
+                if (bucketArray.get(i) != null) {
+                    fw.write("Slot: " + i);
+                    fw.flush();
+                    fw.write("\n");
+                    HashNode<K, V> head = bucketArray.get(i);
+                    while (head != null) {
+                        fw.write(String.format(formatStr, head.key, head.value));
+                        fw.flush();
+                        head = head.next;
+                    }
+                    fw.write("\n");
+                }
             }
-            else {
-                System.out.println(bucketArray.get(i));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fw != null) {
+                try {
+                    fw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
-        }
-    }
-
-    public void printKeyValue(HashNode<K, V> head) {
-        while (head != null) {
-            System.out.println("key: " + head.key + "      value: " + head.value);
-            head = head.next;
         }
     }
 
@@ -39,14 +61,6 @@ public class MyHashMap<K, V> {
 
     public boolean isEmpty() {
         return size() == 0;
-    }
-
-    public int myHashCode(String str) {
-        int hash = 7;
-        for (int i = 0; i < str.length(); i++) {
-            hash = hash * 31 + str.charAt(i);
-        }
-        return hash;
     }
 
     private int getBucketIndex(K key) {
@@ -64,6 +78,9 @@ public class MyHashMap<K, V> {
                 head.value = value;
                 return;
             }
+            else {
+                collision++;  // Fix me
+            }
             head = head.next;
         }
 
@@ -78,6 +95,7 @@ public class MyHashMap<K, V> {
             bucketArray = new ArrayList<>();
             numBuckets = 2 * numBuckets;
             size = 0;
+            collision = 0;
             for (int i = 0; i < numBuckets; i++) {
                 bucketArray.add(null);
             }
@@ -119,6 +137,18 @@ public class MyHashMap<K, V> {
         return;
     }
 
+    public int countCollisions(K key) {
+        int bucketIndex = getBucketIndex(key);
+        int count = 0;
+        HashNode<K, V> head = bucketArray.get(bucketIndex);
+        while (head != null) {
+            if (!key.equals(head.key)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     public V find(K key) {
         int bucketIndex = getBucketIndex(key);
         HashNode<K, V> head = bucketArray.get(bucketIndex);
@@ -133,5 +163,20 @@ public class MyHashMap<K, V> {
 
     public void list_all_keys() {
         return;
+    }
+
+    @Override
+    public Iterator<HashNode<K, V>> iterator() {
+        return null;
+    }
+
+    public static class HashNode<K, V> {
+        K key;
+        V value;
+        HashNode<K, V> next;
+        HashNode(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
     }
 }

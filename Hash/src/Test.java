@@ -18,13 +18,14 @@ public class Test {
 
             Word newWord = new Word(next);
             if (map.find(newWord) == null) {
-                val = 1;
+                map.insert(newWord, 1);
             }
             else {
-                val = map.find(newWord);
-                val++;
+                //val = map.find(newWord);
+                //val++;
+                map.increase(newWord);
             }
-            map.insert(newWord, val);
+            //map.insert(newWord, val);
         }
 
         System.out.println(map.size());
@@ -33,7 +34,7 @@ public class Test {
         System.out.println(map.list_all_keys());
 
         Word a = new Word("will");
-        map.increase(a);
+        //map.increase(a);
         FileWriter fw = null;
 
         map.printBucket();

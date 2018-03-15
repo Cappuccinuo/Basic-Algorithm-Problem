@@ -3,6 +3,7 @@ import java.util.*;
 public class BinaryTree {
     public void sort(RBNode root) {
         System.out.println("Sorted Binary Tree is: " + sortHelper(root));
+        height(root);
         newLine();
     }
 
@@ -27,6 +28,7 @@ public class BinaryTree {
             return;
         }
         System.out.println("Minimum value in this tree is: " + getMin(root).val);
+        height(root);
         newLine();
     }
 
@@ -43,6 +45,7 @@ public class BinaryTree {
             return;
         }
         System.out.println("Maximum value in this tree is: " + getMax(root).val);
+        height(root);
         newLine();
     }
 
@@ -62,6 +65,7 @@ public class BinaryTree {
         else {
             System.out.println("The node has been searched, its value is " + result.val + ", its color is " + result.color);
         }
+        height(root);
         newLine();
     }
 
@@ -92,6 +96,7 @@ public class BinaryTree {
         else {
             System.out.println("The successor of node with value " + target + " is " + succ.val + ", its color is " + succ.color);
         }
+        height(root);
         newLine();
     }
 
@@ -122,6 +127,7 @@ public class BinaryTree {
         else {
             System.out.println("The successor of node with value " + target + " is " + pred.val + ", its color is " + pred.color);
         }
+        height(root);
         newLine();
     }
 
@@ -139,5 +145,19 @@ public class BinaryTree {
 
     private void newLine() {
         System.out.println(" ");
+    }
+
+    public void height(RBNode root) {
+        int h = heightHelper(root);
+        System.out.println("The height of the tree is " + h);
+    }
+
+    private int heightHelper(RBNode root) {
+        if (root == null || root.isNullLeaf) {
+            return 0;
+        }
+        int left = heightHelper(root.left);
+        int right = heightHelper(root.right);
+        return 1 + Math.max(left, right);
     }
 }

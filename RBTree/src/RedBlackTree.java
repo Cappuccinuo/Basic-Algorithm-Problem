@@ -224,5 +224,8 @@ public class RedBlackTree {
         bt.successor(root, 10);
         bt.successor(root, 60);
         bt.successor(root, 600);
+        bt.predecessor(root, 15);
+        bt.predecessor(root, -10);
+        bt.predecessor(root, 100);
     }
 }

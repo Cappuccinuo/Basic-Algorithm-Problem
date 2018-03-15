@@ -82,6 +82,7 @@ public class BinaryTree {
         RBNode node = searchHelper(root, target);
         if (node == null || node.isNullLeaf) {
             System.out.println("No such node with target value " + target);
+            newLine();
             return;
         }
         RBNode succ = getSuccessor(node);
@@ -100,6 +101,36 @@ public class BinaryTree {
         }
         RBNode parent = node.parent;
         while (parent != null && !parent.isNullLeaf && node == parent.right) {
+            node = parent;
+            parent = parent.parent;
+        }
+        return parent;
+    }
+
+    public void predecessor(RBNode root, int target) {
+        System.out.println("Searching predecessor of node with value " + target);
+        RBNode node = searchHelper(root, target);
+        if (node == null || node.isNullLeaf) {
+            System.out.println("No such node with target value " + target);
+            newLine();
+            return;
+        }
+        RBNode pred = getPredecessor(node);
+        if (pred == null || pred.isNullLeaf) {
+            System.out.println("The node has no successor");
+        }
+        else {
+            System.out.println("The successor of node with value " + target + " is " + pred.val + ", its color is " + pred.color);
+        }
+        newLine();
+    }
+
+    private RBNode getPredecessor(RBNode node) {
+        if (node.left != null && !node.left.isNullLeaf) {
+            return getMax(node.left);
+        }
+        RBNode parent = node.parent;
+        while (parent != null && !parent.isNullLeaf && node == parent.left) {
             node = parent;
             parent = parent.parent;
         }

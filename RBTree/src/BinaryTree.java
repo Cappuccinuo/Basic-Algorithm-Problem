@@ -3,6 +3,7 @@ import java.util.*;
 public class BinaryTree {
     public void sort(RBNode root) {
         System.out.println("Sorted Binary Tree is: " + sortHelper(root));
+        newLine();
     }
 
     private List<Integer> sortHelper(RBNode root) {
@@ -21,36 +22,47 @@ public class BinaryTree {
     }
 
     public void min(RBNode root) {
-        System.out.println("Minimum value in this tree is: " + getMin(root));
+        if (root == null || root.isNullLeaf) {
+            System.out.println("The root is empty.");
+            return;
+        }
+        System.out.println("Minimum value in this tree is: " + getMin(root).val);
+        newLine();
     }
 
-    private int getMin(RBNode root) {
+    private RBNode getMin(RBNode root) {
         while (root.left != null && !root.left.isNullLeaf) {
             root = root.left;
         }
-        return root.val;
+        return root;
     }
 
     public void max(RBNode root) {
-        System.out.println("Maximum value in this tree is: " + getMax(root));
+        if (root == null || root.isNullLeaf) {
+            System.out.println("The root is empty.");
+            return;
+        }
+        System.out.println("Maximum value in this tree is: " + getMax(root).val);
+        newLine();
     }
 
-    private int getMax(RBNode root) {
+    private RBNode getMax(RBNode root) {
         while (root.right != null && !root.right.isNullLeaf) {
             root = root.right;
         }
-        return root.val;
+        return root;
     }
 
     public void search(RBNode root, int target) {
         System.out.println("Searching node with value " + target);
         RBNode result = searchHelper(root, target);
         if (result == null || result.isNullLeaf) {
-            System.out.println("No such node.");
+            System.out.println("No such node with target value " + target);
         }
         else {
             System.out.println("The node has been searched, its value is " + result.val + ", its color is " + result.color);
         }
+        newLine();
     }
 
     private RBNode searchHelper(RBNode root, int target) {
@@ -63,5 +75,38 @@ public class BinaryTree {
         else {
             return searchHelper(root.right, target);
         }
+    }
+
+    public void successor(RBNode root, int target) {
+        System.out.println("Searching successor of node with value " + target);
+        RBNode node = searchHelper(root, target);
+        if (node == null || node.isNullLeaf) {
+            System.out.println("No such node with target value " + target);
+            return;
+        }
+        RBNode succ = getSuccessor(node);
+        if (succ == null || succ.isNullLeaf) {
+            System.out.println("The node has no successor");
+        }
+        else {
+            System.out.println("The successor of node with value " + target + " is " + succ.val + ", its color is " + succ.color);
+        }
+        newLine();
+    }
+
+    private RBNode getSuccessor(RBNode node) {
+        if (node.right != null && !node.right.isNullLeaf) {
+            return getMin(node.right);
+        }
+        RBNode parent = node.parent;
+        while (parent != null && !parent.isNullLeaf && node == parent.right) {
+            node = parent;
+            parent = parent.parent;
+        }
+        return parent;
+    }
+
+    private void newLine() {
+        System.out.println(" ");
     }
 }

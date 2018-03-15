@@ -221,5 +221,8 @@ public class RedBlackTree {
         bt.max(root);
         bt.search(root, 10);
         bt.search(root, 110);
+        bt.successor(root, 10);
+        bt.successor(root, 60);
+        bt.successor(root, 600);
     }
 }

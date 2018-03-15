@@ -6,15 +6,6 @@ public class RedBlackTree {
         BLACK
     }
 
-    public static class RBNode {
-        int val;
-        RBNode left;
-        RBNode right;
-        RBNode parent;
-        Color color;
-        boolean isNullLeaf;
-    }
-
     private static RBNode createNullLeafNode(RBNode parent) {
         RBNode leaf = new RBNode();
         leaf.color = Color.BLACK;
@@ -49,10 +40,10 @@ public class RedBlackTree {
     public RBNode insert(RBNode parent, RBNode root, int val) {
         if (root == null || root.isNullLeaf) {
             if (parent != null) {
-                createRedNode(parent, val);
+                return createRedNode(parent, val);
             }
             else {
-                createBlackNode(val);
+                return createBlackNode(val);
             }
         }
 
@@ -78,8 +69,66 @@ public class RedBlackTree {
         }
 
         if (isLeft) {
-            
+            if (root.color == Color.RED && root.left.color == Color.RED) {
+                Optional<RBNode> sibling = findSiblingNode(root);
+                if (!sibling.isPresent() || sibling.get().color == Color.BLACK) {
+                    if (isLeftChild(root)) {
+                        rightRotate(root, true);
+                    }
+                    else {
+                        rightRotate(root.left, false);
+                        root = root.parent;
+                        leftRotate(root, true);
+                    }
+                }
+                else {
+                    root.color = Color.BLACK;
+                    sibling.get().color = Color.BLACK;
+                    if (root.parent.parent != null) {
+                        root.parent.color = Color.RED;
+                    }
+                }
+            }
         }
+        else {
+            if (root.color == Color.RED && root.right.color == Color.RED) {
+                Optional<RBNode> sibling = findSiblingNode(root);
+                if (!sibling.isPresent() || sibling.get().color == Color.BLACK) {
+                    if (isLeftChild(root)) {
+                        leftRotate(root.right, false);
+                        root = root.parent;
+                        rightRotate(root, true);
+                    }
+                    else {
+                        leftRotate(root, true);
+                    }
+                }
+                else {
+                    root.color = Color.BLACK;
+                    sibling.get().color = Color.BLACK;
+                    if (root.parent.parent != null) {
+                        root.parent.color = Color.RED;
+                    }
+                }
+            }
+        }
+        return root;
+    }
+
+    public void printRedBlackTree(RBNode root) {
+        printRedBlackTree(root, 0);
+    }
+
+    private void printRedBlackTree(RBNode root, int space) {
+        if (root == null || root.isNullLeaf) {
+            return;
+        }
+        printRedBlackTree(root.right, space + 7);
+        for (int i = 0; i < space; i++) {
+            System.out.print(" ");
+        }
+        System.out.println(root.val + " " + (root.color == Color.BLACK ? "B" : "R"));
+        printRedBlackTree(root.left, space + 7);
     }
 
     private Optional<RBNode> findSiblingNode(RBNode root) {
@@ -150,4 +199,27 @@ public class RedBlackTree {
         }
     }
 
+    public static void main(String[] args) {
+        RBNode root = null;
+        RedBlackTree redBlackTree = new RedBlackTree();
+
+        root = redBlackTree.insert(root, 10);
+        root = redBlackTree.insert(root, 20);
+        root = redBlackTree.insert(root, -10);
+        root = redBlackTree.insert(root, 15);
+        root = redBlackTree.insert(root, 17);
+        root = redBlackTree.insert(root, 40);
+        root = redBlackTree.insert(root, 50);
+        root = redBlackTree.insert(root, 60);
+        redBlackTree.printRedBlackTree(root);
+
+        //BTreePrinter bp = new BTreePrinter();
+        //bp.printNode(root);
+        BinaryTree bt = new BinaryTree();
+        bt.sort(root);
+        bt.min(root);
+        bt.max(root);
+        bt.search(root, 10);
+        bt.search(root, 110);
+    }
 }

@@ -1,4 +1,7 @@
 import java.util.Optional;
+import java.util.Scanner;
+import java.io.FileReader;
+import java.io.FileNotFoundException;
 
 public class RedBlackTree {
     public enum Color {
@@ -199,20 +202,18 @@ public class RedBlackTree {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         RBNode root = null;
         RedBlackTree redBlackTree = new RedBlackTree();
 
-        root = redBlackTree.insert(root, 10);
-        root = redBlackTree.insert(root, 20);
-        root = redBlackTree.insert(root, -10);
-        root = redBlackTree.insert(root, 15);
-        root = redBlackTree.insert(root, 17);
-        root = redBlackTree.insert(root, 40);
-        root = redBlackTree.insert(root, 50);
-        root = redBlackTree.insert(root, 60);
+        Scanner in = new Scanner(new FileReader("val.txt"));
+        while (in.hasNext()) {
+            String str = in.next();
+            int val = Integer.valueOf(str);
+            root = redBlackTree.insert(root, val);
+        }
         redBlackTree.printRedBlackTree(root);
-
+        
         //BTreePrinter bp = new BTreePrinter();
         //bp.printNode(root);
         BinaryTree bt = new BinaryTree();

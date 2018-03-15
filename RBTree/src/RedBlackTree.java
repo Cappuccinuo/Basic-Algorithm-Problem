@@ -40,4 +40,12 @@ public class RedBlackTree {
         return node;
     }
 
+    public RBNode insert(RBNode root, int val) {
+        return insert(null, root, val);
+    }
+
+    public RBNode insert(RBNode parent, RBNode root, int val) {
+        return new RBNode();
+    }
+
 }

@@ -2,6 +2,8 @@ import java.util.Optional;
 import java.util.Scanner;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class RedBlackTree {
     public enum Color {
@@ -38,6 +40,17 @@ public class RedBlackTree {
 
     public RBNode insert(RBNode root, int val) {
         return insert(null, root, val);
+    }
+
+    public RBNode delete(RBNode root, int val) {
+        AtomicReference<RBNode> rootReference = new AtomicReference<>();
+        delete(root, val, rootReference);
+        if (rootReference.get() == null) {
+            return root;
+        }
+        else {
+            return rootReference.get();
+        }
     }
 
     public RBNode insert(RBNode parent, RBNode root, int val) {
@@ -118,8 +131,61 @@ public class RedBlackTree {
         return root;
     }
 
+    private void delete(RBNode root, int val, AtomicReference<RBNode> rootReference) {
+        if (root == null || root.isNullLeaf) {
+            return;
+        }
+        if (root.val < val) {
+            delete(root.right, val, rootReference);
+        }
+        else if (root.val > val) {
+            delete(root.left, val, rootReference);
+        }
+        else {
+            if (root.left.isNullLeaf || root.right.isNullLeaf) {
+                deleteOneChild(root, rootReference);
+            }
+            else {
+                RBNode successor = getSuccessor(root.right);
+                root.val = successor.val;
+                delete(root.right, successor.val, rootReference);
+            }
+        }
+    }
+
+    private void deleteOneChild(RBNode toDelete, AtomicReference<RBNode> rootReference) {
+        RBNode child = toDelete.left.isNullLeaf ? toDelete.right : toDelete.left;
+        replaceNode(toDelete, child, rootReference);
+        if (toDelete.color == Color.BLACK) {
+            if (child.color == Color.RED) {
+                child.color = Color.BLACK;
+            }
+            //else {
+            //    deleteCase1(RBNode child, rootReference);
+            //}
+        }
+    }
+
+    private void replaceNode(RBNode toReplace, RBNode replace, AtomicReference<RBNode> rootReference) {
+        replace.parent = toReplace.parent;
+        if (toReplace.parent == null) {
+            rootReference.set(replace);
+        }
+        else {
+            if (isLeftChild(toReplace)) {
+                toReplace.parent.left = replace;
+            }
+            else {
+                toReplace.parent.right = replace;
+            }
+        }
+    }
+
     public void printRedBlackTree(RBNode root) {
         printRedBlackTree(root, 0);
+        for (int i = 0; i < 5; i++) {
+            System.out.println();
+        }
     }
 
     private void printRedBlackTree(RBNode root, int space) {
@@ -152,6 +218,15 @@ public class RedBlackTree {
         else {
             return false;
         }
+    }
+
+    private RBNode getSuccessor(RBNode root) {
+        RBNode prev = null;
+        while (root != null && !root.isNullLeaf) {
+            prev = root;
+            root = root.left;
+        }
+        return prev != null ? prev : root;
     }
 
     private void rightRotate(RBNode root, boolean changeColor) {
@@ -202,6 +277,8 @@ public class RedBlackTree {
         }
     }
 
+
+
     public static void main(String[] args) throws FileNotFoundException {
         RBNode root = null;
         RedBlackTree redBlackTree = new RedBlackTree();
@@ -213,7 +290,7 @@ public class RedBlackTree {
             root = redBlackTree.insert(root, val);
         }
         redBlackTree.printRedBlackTree(root);
-        
+
         //BTreePrinter bp = new BTreePrinter();
         //bp.printNode(root);
         BinaryTree bt = new BinaryTree();
@@ -228,5 +305,18 @@ public class RedBlackTree {
         bt.predecessor(root, 15);
         bt.predecessor(root, -10);
         bt.predecessor(root, 100);
+
+
+        RBNode node = null;
+        RedBlackTree rbt = new RedBlackTree();
+        node = rbt.insert(node, 30);
+        node = rbt.insert(node, 20);
+        node = rbt.insert(node, 40);
+        node = rbt.insert(node, 10);
+        node = rbt.insert(node, 25);
+        node = rbt.insert(node ,24);
+        rbt.printRedBlackTree(node);
+        rbt.delete(node, 20);
+        rbt.printRedBlackTree(node);
     }
 }

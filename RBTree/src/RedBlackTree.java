@@ -160,9 +160,94 @@ public class RedBlackTree {
             if (child.color == Color.RED) {
                 child.color = Color.BLACK;
             }
-            //else {
-            //    deleteCase1(RBNode child, rootReference);
-            //}
+            else {
+                deleteCase1(child, rootReference);
+            }
+        }
+    }
+
+    private void deleteCase1(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        if (doubleBlackNode.parent == null) {
+            rootReference.set(doubleBlackNode);
+            return;
+        }
+        deleteCase2(doubleBlackNode, rootReference);
+    }
+
+    private void deleteCase2(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        RBNode sibling = findSiblingNode(doubleBlackNode).get();
+        if (sibling.color == Color.RED) {
+            if (isLeftChild(sibling)) {
+                rightRotate(sibling, true);
+            }
+            else {
+                leftRotate(sibling, true);
+            }
+            if (sibling.parent == null) {
+                rootReference.set(sibling);
+            }
+        }
+        deleteCase3(doubleBlackNode, rootReference);
+    }
+
+    private void deleteCase3(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        RBNode sibling = findSiblingNode(doubleBlackNode).get();
+        if (sibling.parent.color == Color.BLACK
+                && sibling.color == Color.BLACK
+                && sibling.left.color == Color.BLACK
+                && sibling.right.color == Color.BLACK) {
+            sibling.color = Color.RED;
+            deleteCase1(doubleBlackNode.parent, rootReference);
+        }
+        deleteCase4(doubleBlackNode, rootReference);
+    }
+
+    private void deleteCase4(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        RBNode sibling = findSiblingNode(doubleBlackNode).get();
+        if (sibling.parent.color == Color.RED
+                && sibling.color == Color.BLACK
+                && sibling.left.color == Color.BLACK
+                && sibling.right.color == Color.BLACK) {
+            sibling.color = Color.RED;
+            doubleBlackNode.parent.color = Color.BLACK;
+            return;
+        }
+        else {
+            deleteCase5(doubleBlackNode, rootReference);
+        }
+    }
+
+    private void deleteCase5(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        RBNode sibling = findSiblingNode(doubleBlackNode).get();
+        if (sibling.color == Color.BLACK) {
+            if (isLeftChild(sibling)
+                    && sibling.right.color == Color.BLACK
+                    && sibling.left.color == Color.RED) {
+                rightRotate(sibling.left, true);
+            }
+            else if (!isLeftChild(sibling)
+                    && sibling.right.color == Color.RED
+                    && sibling.left.color == Color.BLACK) {
+                leftRotate(sibling.right, true);
+            }
+        }
+        deleteCase6(doubleBlackNode, rootReference);
+    }
+
+    private void deleteCase6(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
+        RBNode sibling = findSiblingNode(doubleBlackNode).get();
+        sibling.color = sibling.parent.color;
+        sibling.parent.color = Color.BLACK;
+        if (isLeftChild(doubleBlackNode)) {
+            sibling.right.color = Color.BLACK;
+            leftRotate(sibling, false);
+        }
+        else {
+            sibling.left.color = Color.BLACK;
+            rightRotate(sibling, false);
+        }
+        if (sibling.parent == null) {
+            rootReference.set(sibling);
         }
     }
 

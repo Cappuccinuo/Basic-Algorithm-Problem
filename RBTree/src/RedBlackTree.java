@@ -56,21 +56,27 @@ public class RedBlackTree {
     }
 
     public RBNode insert(RBNode parent, RBNode root, int val) {
+        // If position is null or a null leaf
         if (root == null || root.isNullLeaf) {
+            // parent is not null, insert new leaf node as red
             if (parent != null) {
                 return createRedNode(parent, val);
             }
+            // Empty tree, create black root node
             else {
                 return createBlackNode(val);
             }
         }
-
+        // Don't allow duplicates
         if (root.val == val) {
             throw new IllegalArgumentException("Duplicate val " + val);
         }
+        // Record the relationship between inserted node and its parent
         boolean isLeft;
+        // Binary search to insert, go left tree
         if (val < root.val) {
             RBNode left = insert(root, root.left, val);
+            // Rotation at lower level happens
             if (left == root.parent) {
                 return left;
             }
@@ -87,8 +93,10 @@ public class RedBlackTree {
         }
 
         if (isLeft) {
+            // Check red-red relation
             if (root.color == Color.RED && root.left.color == Color.RED) {
                 Optional<RBNode> sibling = findSiblingNode(root);
+                // Uncle is black or not exist, rotate, recolor, done
                 if (!sibling.isPresent() || sibling.get().color == Color.BLACK) {
                     if (isLeftChild(root)) {
                         rightRotate(root, true);
@@ -99,6 +107,7 @@ public class RedBlackTree {
                         leftRotate(root, true);
                     }
                 }
+                // Recolor, recheck
                 else {
                     root.color = Color.BLACK;
                     sibling.get().color = Color.BLACK;
@@ -132,7 +141,7 @@ public class RedBlackTree {
         }
         return root;
     }
-
+    // Java doesn't provide mutable wrapper, use atomicReference, like double pointer in C
     private void delete(RBNode root, int val, AtomicReference<RBNode> rootReference) {
         if (root == null || root.isNullLeaf) {
             return;
@@ -155,6 +164,7 @@ public class RedBlackTree {
         }
     }
 
+    // Node to be deleted has only 0/1 child
     private void deleteOneChild(RBNode toDelete, AtomicReference<RBNode> rootReference) {
         RBNode child = toDelete.left.isNullLeaf ? toDelete.right : toDelete.left;
         replaceNode(toDelete, child, rootReference);
@@ -167,7 +177,7 @@ public class RedBlackTree {
             }
         }
     }
-
+    // Double black node is root, just turn it to single black node, reduces one black on every path
     private void deleteCase1(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         if (doubleBlackNode.parent == null) {
             rootReference.set(doubleBlackNode);
@@ -176,6 +186,7 @@ public class RedBlackTree {
         deleteCase2(doubleBlackNode, rootReference);
     }
 
+    // Sibling is red, perform rotation to move old sibling up, recolor the old sibling and parent
     private void deleteCase2(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         if (sibling.color == Color.RED) {
@@ -192,6 +203,8 @@ public class RedBlackTree {
         deleteCase3(doubleBlackNode, rootReference);
     }
 
+    // Sibling is black and its both children are black, perform recoloring, and recur for the parent
+    // if parent is black
     private void deleteCase3(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         if (sibling.parent.color == Color.BLACK
@@ -204,6 +217,7 @@ public class RedBlackTree {
         deleteCase4(doubleBlackNode, rootReference);
     }
 
+    // If parent is red, don't need to recur for parent, simply make it black
     private void deleteCase4(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         if (sibling.parent.color == Color.RED
@@ -219,6 +233,10 @@ public class RedBlackTree {
         }
     }
 
+    // Sibling is black, double black node is left, sibling right child is black, and sibling
+    // left child is red, right rotation at sibling left child and swap colors
+    // Mirror case right.
+    // Convert to Case6
     private void deleteCase5(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         if (sibling.color == Color.BLACK) {
@@ -236,6 +254,10 @@ public class RedBlackTree {
         deleteCase6(doubleBlackNode, rootReference);
     }
 
+    // Sibling is black, double black node is left child, sibling left black, right red, sibling
+    // becomes parent color, parent become black, sibling right become black, do left rotations
+    // at sibling, without other changing color.
+    // Mirror case right
     private void deleteCase6(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         sibling.color = sibling.parent.color;

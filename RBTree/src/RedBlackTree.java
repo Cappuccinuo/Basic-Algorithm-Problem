@@ -132,9 +132,6 @@ public class RedBlackTree {
                 }
             }
         }
-        System.out.println("Insert node with value " + val);
-        BinaryTree bt = new BinaryTree();
-        bt.height(root);
         return root;
     }
 
@@ -381,6 +378,11 @@ public class RedBlackTree {
         System.out.println("9. Exit");
     }
 
+    private int readValue() {
+        Scanner scanner = new Scanner(System.in);
+        return Integer.valueOf(scanner.nextLine());
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
         RBNode root = null;
         RedBlackTree redBlackTree = new RedBlackTree();
@@ -393,42 +395,11 @@ public class RedBlackTree {
         }
         redBlackTree.printRedBlackTree(root);
 
-        /*
-        //BTreePrinter bp = new BTreePrinter();
-        //bp.printNode(root);
-        BinaryTree bt = new BinaryTree();
-        bt.sort(root);
-        bt.min(root);
-        bt.max(root);
-        bt.search(root, 10);
-        bt.search(root, 110);
-        bt.successor(root, 10);
-        bt.successor(root, 60);
-        bt.successor(root, 600);
-        bt.predecessor(root, 15);
-        bt.predecessor(root, -10);
-        bt.predecessor(root, 100);
-        */
-        /*
-        RBNode node = null;
-        RedBlackTree rbt = new RedBlackTree();
-        node = rbt.insert(node, 30);
-        node = rbt.insert(node, 20);
-        node = rbt.insert(node, 40);
-        node = rbt.insert(node, 10);
-        node = rbt.insert(node, 25);
-        node = rbt.insert(node ,24);
-        rbt.printRedBlackTree(node);
-        rbt.delete(node, 20);
-        rbt.printRedBlackTree(node);
-        */
-        String choice = null;
         while (true) {
             Scanner scanner = new Scanner(System.in);
             allOrder();
             System.out.println("Enter the commond: ");
-            choice = scanner.nextLine();
-            int num = Integer.valueOf(choice);
+            int num = redBlackTree.readValue();
             BinaryTree bt = new BinaryTree();
             int n;
             String str;
@@ -437,9 +408,7 @@ public class RedBlackTree {
             }
             if (num == 2) {
                 System.out.println("Enter the search value: ");
-                scanner = new Scanner(System.in);
-                str = scanner.nextLine();
-                n = Integer.valueOf(str);
+                n = redBlackTree.readValue();
                 bt.search(root, n);
             }
             if (num == 3) {
@@ -450,36 +419,33 @@ public class RedBlackTree {
             }
             if (num == 5) {
                 System.out.println("Enter the search value: ");
-                scanner = new Scanner(System.in);
-                str = scanner.nextLine();
-                n = Integer.valueOf(str);
+                n = redBlackTree.readValue();
                 bt.successor(root, n);
             }
             if (num == 6) {
                 System.out.println("Enter the search value: ");
-                scanner = new Scanner(System.in);
-                str = scanner.nextLine();
-                n = Integer.valueOf(str);
+                n = redBlackTree.readValue();
                 bt.predecessor(root, n);
             }
             if (num == 7) {
                 System.out.println("Enter the insert value: ");
-                scanner = new Scanner(System.in);
-                str = scanner.nextLine();
-                n = Integer.valueOf(str);
+                n = redBlackTree.readValue();
                 root = redBlackTree.insert(root, n);
                 redBlackTree.printRedBlackTree(root);
             }
             if (num == 8) {
                 System.out.println("Enter the delete value: ");
-                scanner = new Scanner(System.in);
-                str = scanner.nextLine();
-                n = Integer.valueOf(str);
+                n = redBlackTree.readValue();
                 root = redBlackTree.delete(root, n);
                 redBlackTree.printRedBlackTree(root);
             }
+            bt.height(root);
             if (num == 9) {
                 break;
+            }
+            if (num > 9 || num < 1) {
+                System.out.println("Command Error, re-enter.");
+                continue;
             }
             System.out.println("Continue? Y/N");
             scanner = new Scanner(System.in);

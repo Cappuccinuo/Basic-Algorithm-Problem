@@ -48,11 +48,9 @@ public class RedBlackTree {
         System.out.println("Delete node with value " + val);
         delete(root, val, rootReference);
         if (rootReference.get() == null) {
-            bt.height(root);
             return root;
         }
         else {
-            bt.height(rootReference.get());
             return rootReference.get();
         }
     }
@@ -224,12 +222,12 @@ public class RedBlackTree {
     private void deleteCase5(RBNode doubleBlackNode, AtomicReference<RBNode> rootReference) {
         RBNode sibling = findSiblingNode(doubleBlackNode).get();
         if (sibling.color == Color.BLACK) {
-            if (isLeftChild(sibling)
+            if (isLeftChild(doubleBlackNode)
                     && sibling.right.color == Color.BLACK
                     && sibling.left.color == Color.RED) {
                 rightRotate(sibling.left, true);
             }
-            else if (!isLeftChild(sibling)
+            else if (!isLeftChild(doubleBlackNode)
                     && sibling.right.color == Color.RED
                     && sibling.left.color == Color.BLACK) {
                 leftRotate(sibling.right, true);
@@ -366,6 +364,45 @@ public class RedBlackTree {
         }
     }
 
+    public boolean isRedBlackTree(RBNode root) {
+        if (root == null) {
+            return true;
+        }
+        if (root.color != Color.BLACK) {
+            System.out.println("Tree is not red-black tree.");
+            return false;
+        }
+        AtomicInteger blackCount = new AtomicInteger(0);
+        return checkBlackNodeCount(root, blackCount, 0) && noRedRed(root, Color.BLACK);
+    }
+
+    private boolean checkBlackNodeCount(RBNode root, AtomicInteger blackCount, int current) {
+        if (root.color == Color.BLACK) {
+            current++;
+        }
+        if (root.left == null && root.right == null) {
+            if (blackCount.get() == 0) {
+                blackCount.set(current);
+                return true;
+            }
+            else {
+                return current == blackCount.get();
+            }
+        }
+        return checkBlackNodeCount(root.left, blackCount, current)
+                && checkBlackNodeCount(root.right, blackCount, current);
+    }
+
+    private boolean noRedRed(RBNode root, Color parentColor) {
+        if (root == null) {
+            return true;
+        }
+        if (root.color == Color.RED && parentColor == Color.RED) {
+            return false;
+        }
+        return noRedRed(root.left, root.color) && noRedRed(root.right, root.color);
+    }
+
     private static void allOrder() {
         System.out.println("1. Sort");
         System.out.println("2. Search");
@@ -432,13 +469,14 @@ public class RedBlackTree {
                 n = redBlackTree.readValue();
                 root = redBlackTree.insert(root, n);
                 redBlackTree.printRedBlackTree(root);
+                redBlackTree.isRedBlackTree(root);
             }
             if (num == 8) {
                 System.out.println("Enter the delete value: ");
                 n = redBlackTree.readValue();
                 root = redBlackTree.delete(root, n);
                 redBlackTree.printRedBlackTree(root);
-            }
+                redBlackTree.isRedBlackTree(root);}
             bt.height(root);
             if (num == 9) {
                 break;

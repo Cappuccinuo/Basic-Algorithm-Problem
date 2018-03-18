@@ -44,11 +44,15 @@ public class RedBlackTree {
 
     public RBNode delete(RBNode root, int val) {
         AtomicReference<RBNode> rootReference = new AtomicReference<>();
+        BinaryTree bt = new BinaryTree();
+        System.out.println("Delete node with value " + val);
         delete(root, val, rootReference);
         if (rootReference.get() == null) {
+            bt.height(root);
             return root;
         }
         else {
+            bt.height(rootReference.get());
             return rootReference.get();
         }
     }
@@ -128,6 +132,9 @@ public class RedBlackTree {
                 }
             }
         }
+        System.out.println("Insert node with value " + val);
+        BinaryTree bt = new BinaryTree();
+        bt.height(root);
         return root;
     }
 
@@ -362,7 +369,17 @@ public class RedBlackTree {
         }
     }
 
-
+    private static void allOrder() {
+        System.out.println("1. Sort");
+        System.out.println("2. Search");
+        System.out.println("3. Min");
+        System.out.println("4. Max");
+        System.out.println("5. Successor");
+        System.out.println("6. Predecessor");
+        System.out.println("7. Insert");
+        System.out.println("8. Delete");
+        System.out.println("9. Exit");
+    }
 
     public static void main(String[] args) throws FileNotFoundException {
         RBNode root = null;
@@ -376,6 +393,7 @@ public class RedBlackTree {
         }
         redBlackTree.printRedBlackTree(root);
 
+        /*
         //BTreePrinter bp = new BTreePrinter();
         //bp.printNode(root);
         BinaryTree bt = new BinaryTree();
@@ -390,8 +408,8 @@ public class RedBlackTree {
         bt.predecessor(root, 15);
         bt.predecessor(root, -10);
         bt.predecessor(root, 100);
-
-
+        */
+        /*
         RBNode node = null;
         RedBlackTree rbt = new RedBlackTree();
         node = rbt.insert(node, 30);
@@ -403,5 +421,75 @@ public class RedBlackTree {
         rbt.printRedBlackTree(node);
         rbt.delete(node, 20);
         rbt.printRedBlackTree(node);
+        */
+        String choice = null;
+        while (true) {
+            Scanner scanner = new Scanner(System.in);
+            allOrder();
+            System.out.println("Enter the commond: ");
+            choice = scanner.nextLine();
+            int num = Integer.valueOf(choice);
+            BinaryTree bt = new BinaryTree();
+            int n;
+            String str;
+            if (num == 1) {
+                bt.sort(root);
+            }
+            if (num == 2) {
+                System.out.println("Enter the search value: ");
+                scanner = new Scanner(System.in);
+                str = scanner.nextLine();
+                n = Integer.valueOf(str);
+                bt.search(root, n);
+            }
+            if (num == 3) {
+                bt.min(root);
+            }
+            if (num == 4) {
+                bt.max(root);
+            }
+            if (num == 5) {
+                System.out.println("Enter the search value: ");
+                scanner = new Scanner(System.in);
+                str = scanner.nextLine();
+                n = Integer.valueOf(str);
+                bt.successor(root, n);
+            }
+            if (num == 6) {
+                System.out.println("Enter the search value: ");
+                scanner = new Scanner(System.in);
+                str = scanner.nextLine();
+                n = Integer.valueOf(str);
+                bt.predecessor(root, n);
+            }
+            if (num == 7) {
+                System.out.println("Enter the insert value: ");
+                scanner = new Scanner(System.in);
+                str = scanner.nextLine();
+                n = Integer.valueOf(str);
+                root = redBlackTree.insert(root, n);
+                redBlackTree.printRedBlackTree(root);
+            }
+            if (num == 8) {
+                System.out.println("Enter the delete value: ");
+                scanner = new Scanner(System.in);
+                str = scanner.nextLine();
+                n = Integer.valueOf(str);
+                root = redBlackTree.delete(root, n);
+                redBlackTree.printRedBlackTree(root);
+            }
+            if (num == 9) {
+                break;
+            }
+            System.out.println("Continue? Y/N");
+            scanner = new Scanner(System.in);
+            str = scanner.nextLine();
+            if (str.equals("Y") || str.length() == 0) {
+                continue;
+            }
+            else {
+                break;
+            }
+        }
     }
 }

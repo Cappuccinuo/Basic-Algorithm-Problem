@@ -122,10 +122,10 @@ public class BinaryTree {
         }
         RBNode pred = getPredecessor(node);
         if (pred == null || pred.isNullLeaf) {
-            System.out.println("The node has no successor");
+            System.out.println("The node has no predecessor");
         }
         else {
-            System.out.println("The successor of node with value " + target + " is " + pred.val + ", its color is " + pred.color);
+            System.out.println("The predecessor of node with value " + target + " is " + pred.val + ", its color is " + pred.color);
         }
         height(root);
         newLine();
@@ -150,6 +150,7 @@ public class BinaryTree {
     public void height(RBNode root) {
         int h = heightHelper(root);
         System.out.println("The height of the tree is " + h);
+        newLine();
     }
 
     private int heightHelper(RBNode root) {

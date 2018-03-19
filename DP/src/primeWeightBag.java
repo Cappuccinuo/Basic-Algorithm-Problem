@@ -3,6 +3,7 @@ import java.util.*;
 public class primeWeightBag {
     public static long numberOfPrimeWeight(int[] bag) {
         int maxWeight = 500000;
+        //int maxWeight = 10;
         Arrays.sort(bag);
         int len = bag.length;
         long count = 0;
@@ -27,19 +28,26 @@ public class primeWeightBag {
         }
         int consecutive = 1;
         for (int i = 1; i <= len; i++) {
+            if (i > 1 && bag[i - 1] == bag[i - 2]) {
+                consecutive++;
+            }
+            else {
+                consecutive = 1;
+            }
             for (int j = 1; j <= maxWeight; j++) {
                 if (j - bag[i - 1] >= 0) {
-                    if (i > 1 && bag[i - 1] == bag[i - 2]) {
-                        consecutive++;
-                        if (j != consecutive * bag[i - 1]) {
-                            dp[i][j] = Math.max(dp[i - 1][j - bag[i - 1]], dp[i - 1][j]);
+                    if (consecutive > 1) {
+                        if (j < consecutive * bag[i - 1]) {
+                            dp[i][j] = dp[i - 1][j];
+                        }
+                        else if (j == consecutive * bag[i - 1]) {
+                            dp[i][j] = dp[i - 1][j] + 1;
                         }
                         else {
-                            dp[i][j] = dp[i - 1][j] + 1;
+                            dp[i][j] = dp[i - 1][j - bag[i - 1]];
                         }
                     }
                     else {
-                        consecutive = 1;
                         dp[i][j] = dp[i - 1][j] + dp[i - 1][j - bag[i - 1]];
                     }
                 }
@@ -48,21 +56,21 @@ public class primeWeightBag {
                 }
             }
         }
-        /*
-        for (int i = 0; i <= 9; i++) {
+        
+        for (int i = 0; i <= 12; i++) {
             System.out.print(i + " ");
         }
         System.out.println();
-        for (int i = 0; i <= 6; i++) {
+        for (int i = 1; i <= 7; i++) {
             for (int j = 0; j <= 12; j++) {
                 System.out.print(dp[i][j] + " ");
             }
             System.out.println();
         }
-        */      
+            
 
         for (int i = 0; i <= maxWeight; i++) {
-            if (isPrime[i] && dp[len][i] > 0) {
+            if (isPrime[i]) {
                 count += dp[len][i];
             }
         }
@@ -77,10 +85,6 @@ public class primeWeightBag {
         9960, 9961, 9962, 9963, 9964, 9965, 9966, 9967, 9968, 9969, 9970, 9971, 9972, 9973,
         9974, 9975, 9976, 9977, 9978, 9979, 9980, 9981, 9982, 9983, 9984, 9985, 9986, 9987,
         9988, 9989, 9990, 9991, 9992, 9993, 9994, 9995, 9996};// 91378169764810
-        int[] bag5 = new int[]{9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947,
-        9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9934, 9934,
-        9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934,
-        9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934};// 54
         int[] bag7 = new int[]{10000, 9999, 9998, 9997, 9996, 9995, 9994, 9993, 9992, 9991, 9990, 9989,
         9988, 9987, 9986, 9985, 9984, 9983, 9982, 9981, 9980, 9979, 9978, 9977, 9976, 9975,
         9974, 9973, 9972, 9971, 9970, 9969, 9968, 9967, 9966, 9965, 9964, 9963, 9962, 9961,
@@ -91,6 +95,10 @@ public class primeWeightBag {
         10000, 10000, 10000, 10000, 10000, 10000, 10000};// 6555
 
         // Not pass
+        int[] bag5 = new int[]{9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947,
+                9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9947, 9934, 9934,
+                9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934,
+                9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934, 9934};// 54
         int[] bag6 = new int[]{1, 1, 2, 2, 4, 4, 8, 8, 16, 16, 32, 32, 64, 64, 128, 128, 256, 256, 512, 512, 1024,
         1024, 2048, 2048, 4096, 1, 1, 2, 2, 4, 4, 8, 8, 16, 16, 32, 32, 64, 64, 128, 128, 256, 256,
         512, 512, 1024, 1024, 2048, 2048, 4096};// 62648678
@@ -99,6 +107,8 @@ public class primeWeightBag {
         9997, 9998, 9999, 9990, 9991, 9992, 9993, 9994, 9995, 9996, 9997, 9998, 9999, 9990,
         9991, 9992, 9993, 9994, 9995, 9996, 9997, 9998, 9999};// 4814999
 
-        System.out.println(numberOfPrimeWeight(bag6));
+        int[] bag10 = new int[]{1, 1, 1, 1, 1, 2, 3};
+
+        System.out.println(numberOfPrimeWeight(bag5));
     }
 }

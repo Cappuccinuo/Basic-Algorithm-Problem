@@ -6,7 +6,7 @@ first two lines with the amount of time you spent working and the date
 when you stopped.  You may also record any notes you wish to make about
 what you did during the session.
 
-Every commit of this file constitutes a work log entry.  Each entry
+Every com'mit of this file constitutes a work log entry.  Each entry
 should replace the previous one, so there will only be one session
 recorded at any particular version of this file.  Do not change the
 format of the first four lines, as the course staff will use

@@ -4,6 +4,17 @@ import java.io.FileReader;
 import java.io.FileNotFoundException;
 
 public class Test {
+    public static String filter(String str) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < str.length(); i++) {
+            if (!Character.isLetterOrDigit(str.charAt(i))) {
+                continue;
+            }
+            sb.append(str.charAt(i));
+        }
+        return sb.toString();
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
         MyHashMap<Word, Integer> map = new MyHashMap<>(10);
         Scanner in = new Scanner(new FileReader("log.txt"));
@@ -12,9 +23,7 @@ public class Test {
         while (in.hasNext()) {
             String next = in.next();
             wordCount++;
-            if (!Character.isLetter(next.charAt(next.length() - 1))) {
-                next = next.substring(0, next.length() - 1);
-            }
+            next = filter(next);
 
             Word newWord = new Word(next);
             if (map.find(newWord) == null) {

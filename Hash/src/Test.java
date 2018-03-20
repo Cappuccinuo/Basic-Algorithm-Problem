@@ -16,8 +16,8 @@ public class Test {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        MyHashMap<Word, Integer> map = new MyHashMap<>(10);
-        Scanner in = new Scanner(new FileReader("log.txt"));
+        MyHashMap<Word, Integer> map = new MyHashMap<>(20000);
+        Scanner in = new Scanner(new FileReader("alice.txt"));
         int val;
         int wordCount = 0;
         while (in.hasNext()) {

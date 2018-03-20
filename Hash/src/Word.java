@@ -14,9 +14,8 @@ public class Word {
             char c = str.charAt(i);
             hash ^= (c & 0xff);
             hash *= PRIME;
-            if (hash < 0) hash *= -1; // convert negatives to positive
         }
-
+        if (hash < 0) hash *= -1; // convert negatives to positive
         return hash;
     }
     /*

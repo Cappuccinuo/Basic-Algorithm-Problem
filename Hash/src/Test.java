@@ -1,7 +1,7 @@
-import java.io.FileWriter;
+import java.io.*;
+import java.nio.Buffer;
 import java.util.Scanner;
-import java.io.FileReader;
-import java.io.FileNotFoundException;
+import java.util.StringTokenizer;
 
 public class Test {
     public static String filter(String str) {
@@ -17,24 +17,29 @@ public class Test {
 
     public static void main(String[] args) throws FileNotFoundException {
         MyHashMap<Word, Integer> map = new MyHashMap<>(20000);
-        Scanner in = new Scanner(new FileReader("alice.txt"));
-        int val;
+        String regex = "[【】、.。,，\"!--;:?\'\\]\\[\\/_@]";
+        
         int wordCount = 0;
-        while (in.hasNext()) {
-            String next = in.next();
-            wordCount++;
-            next = filter(next);
-
-            Word newWord = new Word(next);
-            if (map.find(newWord) == null) {
-                map.insert(newWord, 1);
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("alice.txt"));
+            String value;
+            while ((value = br.readLine()) != null) {
+                value = value.replaceAll(regex, " ");
+                StringTokenizer tokenizer = new StringTokenizer(value);
+                while (tokenizer.hasMoreTokens()) {
+                    String word = tokenizer.nextToken();
+                    wordCount++;
+                    Word newWord = new Word(word);
+                    if (map.find(newWord) == null) {
+                        map.insert(newWord, 1);
+                    }
+                    else {
+                        map.increase(newWord);
+                    }
+                }
             }
-            else {
-                //val = map.find(newWord);
-                //val++;
-                map.increase(newWord);
-            }
-            //map.insert(newWord, val);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
         System.out.println(map.size());
@@ -44,7 +49,6 @@ public class Test {
 
         Word a = new Word("will");
         //map.increase(a);
-        FileWriter fw = null;
 
         map.printBucket();
     }

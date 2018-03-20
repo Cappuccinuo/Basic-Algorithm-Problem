@@ -8,7 +8,7 @@ Slot: 17
 Word: calculate            Frequency: 1              
 
 Slot: 30
-Word: voices               Frequency: 2              
+Word: voices               Frequency: 3              
 
 Slot: 33
 Word: just                 Frequency: 17             
@@ -17,7 +17,7 @@ Slot: 47
 Word: Executive            Frequency: 1              
 
 Slot: 80
-Word: left                 Frequency: 6              
+Word: left                 Frequency: 8              
 
 Slot: 88
 Word: nor                  Frequency: 2              
@@ -27,7 +27,7 @@ Word: accustomed           Frequency: 1
 Word: us                   Frequency: 4              
 
 Slot: 106
-Word: within               Frequency: 5              
+Word: within               Frequency: 6              
 
 Slot: 117
 Word: yet                  Frequency: 6              
@@ -43,6 +43,9 @@ Word: circle               Frequency: 1
 
 Slot: 141
 Word: master               Frequency: 1              
+
+Slot: 146
+Word: don                  Frequency: 14             
 
 Slot: 150
 Word: letters              Frequency: 1              
@@ -60,7 +63,7 @@ Slot: 180
 Word: But                  Frequency: 8              
 
 Slot: 183
-Word: sensation            Frequency: 1              
+Word: sensation            Frequency: 2              
 
 Slot: 196
 Word: roared               Frequency: 1              
@@ -68,11 +71,8 @@ Word: roared               Frequency: 1
 Slot: 217
 Word: stupidly             Frequency: 1              
 
-Slot: 231
-Word: knowNo               Frequency: 1              
-
 Slot: 236
-Word: That                 Frequency: 3              
+Word: That                 Frequency: 8              
 
 Slot: 251
 Word: stretched            Frequency: 2              
@@ -101,12 +101,12 @@ Word: accusation           Frequency: 1
 Slot: 329
 Word: later                Frequency: 1              
 
-Slot: 340
-Word: Youll                Frequency: 1              
+Slot: 351
+Word: isn                  Frequency: 1              
 
 Slot: 352
 Word: accepted             Frequency: 2              
-Word: see                  Frequency: 20             
+Word: see                  Frequency: 21             
 
 Slot: 356
 Word: Visit                Frequency: 1              
@@ -122,9 +122,6 @@ Word: paperwork            Frequency: 1
 
 Slot: 374
 Word: He                   Frequency: 4              
-
-Slot: 377
-Word: presentat            Frequency: 1              
 
 Slot: 382
 Word: fur                  Frequency: 2              
@@ -144,29 +141,23 @@ Word: IF                   Frequency: 1
 Slot: 424
 Word: critical             Frequency: 1              
 
-Slot: 425
-Word: 501c3                Frequency: 2              
-
 Slot: 429
 Word: recognized           Frequency: 1              
 
 Slot: 439
-Word: party                Frequency: 6              
+Word: party                Frequency: 7              
 
 Slot: 441
 Word: harm                 Frequency: 1              
 
 Slot: 446
-Word: in                   Frequency: 214            
+Word: in                   Frequency: 215            
 
 Slot: 460
 Word: but                  Frequency: 43             
 
 Slot: 469
 Word: renamed              Frequency: 1              
-
-Slot: 480
-Word: hadnt                Frequency: 1              
 
 Slot: 482
 Word: cakes                Frequency: 3              
@@ -187,6 +178,7 @@ Slot: 516
 Word: OR                   Frequency: 6              
 
 Slot: 518
+Word: III                  Frequency: 1              
 Word: an                   Frequency: 20             
 
 Slot: 530
@@ -196,7 +188,7 @@ Slot: 534
 Word: offended             Frequency: 5              
 
 Slot: 545
-Word: Dinahll              Frequency: 1              
+Word: lesson               Frequency: 1              
 
 Slot: 546
 Word: distribute           Frequency: 5              
@@ -208,16 +200,13 @@ Slot: 594
 Word: croqueting           Frequency: 1              
 
 Slot: 612
-Word: Mouse                Frequency: 21             
+Word: Mouse                Frequency: 22             
 
 Slot: 618
 Word: words                Frequency: 6              
 
 Slot: 653
 Word: chorus               Frequency: 3              
-
-Slot: 655
-Word: catsnasty            Frequency: 1              
 
 Slot: 666
 Word: blades               Frequency: 1              
@@ -233,6 +222,9 @@ Word: GIVE                 Frequency: 1
 
 Slot: 679
 Word: returning            Frequency: 1              
+
+Slot: 682
+Word: chair                Frequency: 1              
 
 Slot: 683
 Word: hardly               Frequency: 3              
@@ -263,13 +255,16 @@ Slot: 766
 Word: could                Frequency: 29             
 
 Slot: 767
-Word: Dinah                Frequency: 5              
+Word: Dinah                Frequency: 6              
 
 Slot: 777
 Word: tucked               Frequency: 3              
 
 Slot: 782
 Word: Redistribution       Frequency: 1              
+
+Slot: 789
+Word: L                    Frequency: 2              
 
 Slot: 791
 Word: flavor               Frequency: 1              
@@ -294,7 +289,7 @@ Slot: 829
 Word: set                  Frequency: 17             
 
 Slot: 831
-Word: They                 Frequency: 5              
+Word: They                 Frequency: 6              
 Word: fright               Frequency: 2              
 
 Slot: 833
@@ -320,16 +315,13 @@ Word: fifteen              Frequency: 1
 
 Slot: 909
 Word: hedges               Frequency: 1              
-Word: how                  Frequency: 12             
+Word: how                  Frequency: 13             
 
 Slot: 910
 Word: altogether           Frequency: 1              
 
 Slot: 912
 Word: educational          Frequency: 1              
-
-Slot: 926
-Word: queerlooking         Frequency: 1              
 
 Slot: 930
 Word: which                Frequency: 26             
@@ -350,7 +342,7 @@ Slot: 988
 Word: promoting            Frequency: 2              
 
 Slot: 989
-Word: There                Frequency: 17             
+Word: There                Frequency: 22             
 
 Slot: 990
 Word: DISTRIBUTE           Frequency: 1              
@@ -359,17 +351,20 @@ Word: many                 Frequency: 4
 Slot: 995
 Word: please               Frequency: 9              
 
-Slot: 1017
-Word: US                   Frequency: 3              
+Slot: 1027
+Word: 501                  Frequency: 2              
 
 Slot: 1036
 Word: Team                 Frequency: 2              
 
 Slot: 1044
-Word: scroll               Frequency: 1              
+Word: scroll               Frequency: 2              
 
 Slot: 1058
 Word: would                Frequency: 12             
+
+Slot: 1067
+Word: rocket               Frequency: 1              
 
 Slot: 1085
 Word: myself               Frequency: 4              
@@ -379,7 +374,7 @@ Word: relieved             Frequency: 1
 
 Slot: 1109
 Word: exclaimed            Frequency: 1              
-Word: glass                Frequency: 8              
+Word: glass                Frequency: 9              
 
 Slot: 1122
 Word: perform              Frequency: 1              
@@ -414,6 +409,12 @@ Word: Away                 Frequency: 1
 Slot: 1191
 Word: methods              Frequency: 1              
 
+Slot: 1208
+Word: net                  Frequency: 2              
+
+Slot: 1209
+Word: needn                Frequency: 1              
+
 Slot: 1233
 Word: flowers              Frequency: 2              
 
@@ -427,7 +428,7 @@ Slot: 1245
 Word: high                 Frequency: 14             
 
 Slot: 1257
-Word: gloves               Frequency: 5              
+Word: gloves               Frequency: 10             
 
 Slot: 1262
 Word: certainly            Frequency: 4              
@@ -475,9 +476,6 @@ Word: user                 Frequency: 3
 Slot: 1374
 Word: IN                   Frequency: 6              
 
-Slot: 1376
-Word: Id                   Frequency: 1              
-
 Slot: 1385
 Word: with                 Frequency: 112            
 
@@ -493,14 +491,8 @@ Word: remedies             Frequency: 1
 Slot: 1416
 Word: Keep                 Frequency: 1              
 
-Slot: 1426
-Word: Dont                 Frequency: 1              
-
 Slot: 1428
 Word: Terms                Frequency: 2              
-
-Slot: 1430
-Word: yoursI               Frequency: 1              
 
 Slot: 1449
 Word: shrill               Frequency: 2              
@@ -509,7 +501,7 @@ Slot: 1469
 Word: thinking             Frequency: 4              
 
 Slot: 1475
-Word: head                 Frequency: 14             
+Word: head                 Frequency: 16             
 Word: passage              Frequency: 4              
 
 Slot: 1476
@@ -554,8 +546,8 @@ Word: posted               Frequency: 5
 Slot: 1585
 Word: smoking              Frequency: 1              
 
-Slot: 1590
-Word: aIm                  Frequency: 2              
+Slot: 1597
+Word: fish                 Frequency: 1              
 
 Slot: 1632
 Word: damage               Frequency: 1              
@@ -586,23 +578,28 @@ Word: jumping              Frequency: 2
 Word: hung                 Frequency: 1              
 
 Slot: 1717
-Word: FishFootman          Frequency: 2              
 Word: down                 Frequency: 50             
 
 Slot: 1718
-Word: King                 Frequency: 23             
+Word: King                 Frequency: 24             
 
 Slot: 1723
 Word: Hush                 Frequency: 2              
 
 Slot: 1741
-Word: D                    Frequency: 1              
+Word: D                    Frequency: 2              
+
+Slot: 1743
+Word: n                    Frequency: 4              
 
 Slot: 1761
 Word: squeaking            Frequency: 1              
 
 Slot: 1774
 Word: till                 Frequency: 6              
+
+Slot: 1779
+Word: gbnewby              Frequency: 1              
 
 Slot: 1788
 Word: mentioned            Frequency: 1              
@@ -625,14 +622,14 @@ Word: conquest             Frequency: 1
 Slot: 1839
 Word: roof                 Frequency: 3              
 
+Slot: 1850
+Word: flower               Frequency: 1              
+
 Slot: 1859
 Word: wept                 Frequency: 1              
 
 Slot: 1863
 Word: usurpation           Frequency: 1              
-
-Slot: 1865
-Word: 1E6                  Frequency: 1              
 
 Slot: 1872
 Word: library              Frequency: 1              
@@ -643,18 +640,18 @@ Word: Dormouse             Frequency: 6
 Slot: 1876
 Word: sentence             Frequency: 6              
 
+Slot: 1884
+Word: SAM                  Frequency: 2              
+
 Slot: 1894
 Word: turn                 Frequency: 1              
 
 Slot: 1897
-Word: we                   Frequency: 12             
+Word: we                   Frequency: 15             
 
 Slot: 1899
 Word: attached             Frequency: 1              
 Word: feet                 Frequency: 12             
-
-Slot: 1913
-Word: 1F3                  Frequency: 4              
 
 Slot: 1916
 Word: stood                Frequency: 5              
@@ -667,9 +664,6 @@ Word: AK                   Frequency: 1
 
 Slot: 1929
 Word: Get                  Frequency: 1              
-
-Slot: 1939
-Word: ASIS                 Frequency: 1              
 
 Slot: 1943
 Word: ANYTHING             Frequency: 1              
@@ -699,10 +693,13 @@ Slot: 2050
 Word: played               Frequency: 1              
 
 Slot: 2052
-Word: THE                  Frequency: 9              
+Word: THE                  Frequency: 12             
 
 Slot: 2060
 Word: disappointment       Frequency: 1              
+
+Slot: 2063
+Word: 0                    Frequency: 1              
 
 Slot: 2066
 Word: violates             Frequency: 1              
@@ -716,13 +713,10 @@ Slot: 2080
 Word: guests               Frequency: 1              
 
 Slot: 2103
-Word: two                  Frequency: 13             
+Word: two                  Frequency: 14             
 
 Slot: 2118
 Word: creep                Frequency: 1              
-
-Slot: 2142
-Word: Gutenbergtms         Frequency: 1              
 
 Slot: 2156
 Word: summer               Frequency: 1              
@@ -741,13 +735,10 @@ Word: pointing             Frequency: 1
 
 Slot: 2193
 Word: locations            Frequency: 2              
+Word: legged               Frequency: 1              
 
 Slot: 2218
-Word: theyve               Frequency: 1              
 Word: W                    Frequency: 1              
-
-Slot: 2238
-Word: today                Frequency: 2              
 
 Slot: 2243
 Word: wonderful            Frequency: 1              
@@ -766,9 +757,6 @@ Word: fetch                Frequency: 1
 
 Slot: 2271
 Word: this                 Frequency: 80             
-
-Slot: 2272
-Word: enoughI              Frequency: 1              
 
 Slot: 2284
 Word: whole                Frequency: 6              
@@ -791,6 +779,9 @@ Word: concerning           Frequency: 2
 Slot: 2320
 Word: ASCII                Frequency: 2              
 
+Slot: 2326
+Word: IV                   Frequency: 1              
+
 Slot: 2332
 Word: copy                 Frequency: 12             
 
@@ -801,7 +792,7 @@ Slot: 2342
 Word: sorts                Frequency: 1              
 
 Slot: 2346
-Word: look                 Frequency: 4              
+Word: look                 Frequency: 5              
 
 Slot: 2347
 Word: tiny                 Frequency: 3              
@@ -812,9 +803,6 @@ Word: NEW                  Frequency: 2
 Slot: 2361
 Word: Conqueror            Frequency: 2              
 
-Slot: 2370
-Word: lookingglass         Frequency: 1              
-
 Slot: 2373
 Word: Read                 Frequency: 1              
 
@@ -822,16 +810,13 @@ Slot: 2377
 Word: upon                 Frequency: 17             
 
 Slot: 2378
-Word: donate               Frequency: 3              
+Word: donate               Frequency: 4              
 
 Slot: 2390
 Word: indignantly          Frequency: 2              
 
 Slot: 2403
 Word: Poor                 Frequency: 2              
-
-Slot: 2414
-Word: isOh                 Frequency: 1              
 
 Slot: 2433
 Word: PURPOSE              Frequency: 1              
@@ -847,7 +832,7 @@ Slot: 2452
 Word: lives                Frequency: 3              
 
 Slot: 2471
-Word: pepper               Frequency: 1              
+Word: pepper               Frequency: 2              
 
 Slot: 2477
 Word: locked               Frequency: 1              
@@ -861,9 +846,6 @@ Word: Title                Frequency: 1
 Slot: 2520
 Word: PG                   Frequency: 1              
 
-Slot: 2527
-Word: theyll               Frequency: 2              
-
 Slot: 2540
 Word: stalk                Frequency: 1              
 
@@ -873,17 +855,14 @@ Word: guess                Frequency: 1
 Slot: 2547
 Word: cunning              Frequency: 1              
 
-Slot: 2560
-Word: outoftheway          Frequency: 1              
-
 Slot: 2565
-Word: 19033                Frequency: 1              
+Word: 19033                Frequency: 4              
 
 Slot: 2574
 Word: honest               Frequency: 1              
 
 Slot: 2577
-Word: one                  Frequency: 33             
+Word: one                  Frequency: 34             
 
 Slot: 2583
 Word: Proofreading         Frequency: 2              
@@ -906,17 +885,11 @@ Word: nice                 Frequency: 2
 Slot: 2630
 Word: encourage            Frequency: 1              
 
-Slot: 2649
-Word: riddlesI             Frequency: 1              
-
 Slot: 2654
 Word: lonely               Frequency: 1              
 
-Slot: 2674
-Word: skyrocket            Frequency: 1              
-
 Slot: 2681
-Word: email                Frequency: 3              
+Word: email                Frequency: 2              
 
 Slot: 2687
 Word: butter               Frequency: 3              
@@ -980,10 +953,10 @@ Slot: 2828
 Word: caused               Frequency: 2              
 
 Slot: 2837
-Word: him                  Frequency: 5              
+Word: him                  Frequency: 6              
 
 Slot: 2843
-Word: jury                 Frequency: 4              
+Word: jury                 Frequency: 6              
 
 Slot: 2844
 Word: concluded            Frequency: 1              
@@ -999,11 +972,11 @@ Word: stool                Frequency: 1
 Word: silence              Frequency: 4              
 
 Slot: 2876
-Word: Bill                 Frequency: 3              
+Word: Bill                 Frequency: 5              
 
 Slot: 2879
 Word: refund               Frequency: 8              
-Word: she                  Frequency: 202            
+Word: she                  Frequency: 204            
 
 Slot: 2880
 Word: Internal             Frequency: 1              
@@ -1047,9 +1020,6 @@ Word: underneath           Frequency: 1
 Slot: 2961
 Word: particularly         Frequency: 1              
 
-Slot: 2966
-Word: crossexamine         Frequency: 1              
-
 Slot: 2979
 Word: shoulder             Frequency: 1              
 
@@ -1063,14 +1033,14 @@ Slot: 2996
 Word: confirmation         Frequency: 1              
 
 Slot: 3005
-Word: moment               Frequency: 17             
-
-Slot: 3006
-Word: parchmentscroll      Frequency: 1              
+Word: moment               Frequency: 18             
 
 Slot: 3014
 Word: entity               Frequency: 3              
 Word: finding              Frequency: 2              
+
+Slot: 3015
+Word: 8                    Frequency: 6              
 
 Slot: 3021
 Word: draw                 Frequency: 1              
@@ -1088,16 +1058,10 @@ Slot: 3055
 Word: roses                Frequency: 2              
 
 Slot: 3058
-Word: Queens               Frequency: 2              
+Word: Queens               Frequency: 1              
 
 Slot: 3085
 Word: remembered           Frequency: 2              
-
-Slot: 3098
-Word: awayyou              Frequency: 1              
-
-Slot: 3101
-Word: youre                Frequency: 4              
 
 Slot: 3107
 Word: remove               Frequency: 1              
@@ -1109,7 +1073,7 @@ Slot: 3131
 Word: toffy                Frequency: 1              
 
 Slot: 3133
-Word: three                Frequency: 8              
+Word: three                Frequency: 9              
 
 Slot: 3139
 Word: fallen               Frequency: 3              
@@ -1118,13 +1082,10 @@ Slot: 3167
 Word: worth                Frequency: 1              
 
 Slot: 3170
-Word: O                    Frequency: 3              
+Word: O                    Frequency: 2              
 
 Slot: 3173
 Word: Language             Frequency: 1              
-
-Slot: 3178
-Word: shes                 Frequency: 1              
 
 Slot: 3191
 Word: worse                Frequency: 1              
@@ -1148,7 +1109,7 @@ Slot: 3242
 Word: dozing               Frequency: 1              
 
 Slot: 3254
-Word: he                   Frequency: 20             
+Word: he                   Frequency: 22             
 
 Slot: 3255
 Word: Tis                  Frequency: 1              
@@ -1166,7 +1127,7 @@ Slot: 3279
 Word: grinning             Frequency: 1              
 
 Slot: 3280
-Word: It                   Frequency: 19             
+Word: It                   Frequency: 24             
 
 Slot: 3286
 Word: liked                Frequency: 2              
@@ -1175,7 +1136,7 @@ Slot: 3293
 Word: pattering            Frequency: 3              
 
 Slot: 3306
-Word: sky                  Frequency: 2              
+Word: sky                  Frequency: 3              
 
 Slot: 3315
 Word: rush                 Frequency: 1              
@@ -1206,6 +1167,9 @@ Word: outside              Frequency: 5
 
 Slot: 3456
 Word: indemnify            Frequency: 1              
+
+Slot: 3468
+Word: www                  Frequency: 8              
 
 Slot: 3473
 Word: strange              Frequency: 2              
@@ -1241,9 +1205,6 @@ Word: Eaglet               Frequency: 2
 Slot: 3571
 Word: death                Frequency: 1              
 
-Slot: 3581
-Word: Bills                Frequency: 1              
-
 Slot: 3589
 Word: evidently            Frequency: 1              
 
@@ -1267,7 +1228,7 @@ Word: solemn               Frequency: 2
 Word: best                 Frequency: 5              
 
 Slot: 3655
-Word: pocket               Frequency: 2              
+Word: pocket               Frequency: 4              
 
 Slot: 3664
 Word: Gregory              Frequency: 1              
@@ -1281,9 +1242,6 @@ Word: judging              Frequency: 1
 Slot: 3704
 Word: main                 Frequency: 1              
 
-Slot: 3719
-Word: cherrytart           Frequency: 1              
-
 Slot: 3725
 Word: long                 Frequency: 12             
 
@@ -1291,13 +1249,10 @@ Slot: 3750
 Word: obsolete             Frequency: 1              
 
 Slot: 3754
-Word: seen                 Frequency: 3              
+Word: seen                 Frequency: 4              
 
 Slot: 3770
 Word: settled              Frequency: 3              
-
-Slot: 3772
-Word: fireirons            Frequency: 1              
 
 Slot: 3790
 Word: possessed            Frequency: 1              
@@ -1339,9 +1294,6 @@ Word: Yes                  Frequency: 2
 Slot: 3858
 Word: finish               Frequency: 1              
 
-Slot: 3880
-Word: youd                 Frequency: 3              
-
 Slot: 3906
 Word: dry                  Frequency: 6              
 
@@ -1355,15 +1307,15 @@ Slot: 3957
 Word: plenty               Frequency: 2              
 
 Slot: 3959
-Word: tea                  Frequency: 3              
 Word: open                 Frequency: 4              
+Word: tea                  Frequency: 6              
 
 Slot: 3964
 Word: Northumbria          Frequency: 1              
 Word: size                 Frequency: 10             
 
 Slot: 3971
-Word: there                Frequency: 15             
+Word: there                Frequency: 21             
 
 Slot: 3972
 Word: meaning              Frequency: 3              
@@ -1371,17 +1323,11 @@ Word: meaning              Frequency: 3
 Slot: 3974
 Word: uncomfortable        Frequency: 1              
 
-Slot: 3990
-Word: daisychain           Frequency: 1              
-
 Slot: 4000
 Word: written              Frequency: 4              
 
 Slot: 4009
 Word: sides                Frequency: 2              
-
-Slot: 4030
-Word: rathole              Frequency: 1              
 
 Slot: 4031
 Word: waited               Frequency: 3              
@@ -1398,14 +1344,14 @@ Word: flown                Frequency: 1
 Slot: 4090
 Word: grinned              Frequency: 2              
 
-Slot: 4106
-Word: XALICES              Frequency: 1              
+Slot: 4102
+Word: doesn                Frequency: 3              
 
 Slot: 4122
 Word: production           Frequency: 1              
 
 Slot: 4135
-Word: its                  Frequency: 35             
+Word: its                  Frequency: 25             
 
 Slot: 4146
 Word: INDEMNITY            Frequency: 1              
@@ -1438,12 +1384,6 @@ Word: against              Frequency: 6
 Slot: 4245
 Word: ORANGE               Frequency: 1              
 
-Slot: 4246
-Word: 1E5                  Frequency: 1              
-
-Slot: 4248
-Word: voicethe             Frequency: 1              
-
 Slot: 4266
 Word: hit                  Frequency: 2              
 
@@ -1451,10 +1391,7 @@ Slot: 4279
 Word: emphasis             Frequency: 1              
 
 Slot: 4287
-Word: parchment            Frequency: 1              
-
-Slot: 4304
-Word: CheshireCat          Frequency: 3              
+Word: parchment            Frequency: 2              
 
 Slot: 4305
 Word: Even                 Frequency: 1              
@@ -1471,6 +1408,9 @@ Word: slowly               Frequency: 4
 
 Slot: 4325
 Word: cry                  Frequency: 3              
+
+Slot: 4328
+Word: RACE                 Frequency: 1              
 
 Slot: 4347
 Word: read                 Frequency: 7              
@@ -1490,6 +1430,7 @@ Word: timid                Frequency: 2
 
 Slot: 4401
 Word: between              Frequency: 1              
+Word: ADVICE               Frequency: 1              
 
 Slot: 4409
 Word: anyone               Frequency: 6              
@@ -1501,13 +1442,13 @@ Slot: 4418
 Word: reasons              Frequency: 1              
 
 Slot: 4424
-Word: middle               Frequency: 4              
+Word: middle               Frequency: 5              
 
 Slot: 4443
 Word: survive              Frequency: 1              
 
 Slot: 4444
-Word: 1                    Frequency: 2              
+Word: 1                    Frequency: 47             
 
 Slot: 4450
 Word: stored               Frequency: 1              
@@ -1523,9 +1464,6 @@ Word: minding              Frequency: 1
 
 Slot: 4467
 Word: Are                  Frequency: 3              
-
-Slot: 4468
-Word: otherBill            Frequency: 1              
 
 Slot: 4469
 Word: arches               Frequency: 1              
@@ -1560,9 +1498,6 @@ Word: consider             Frequency: 1
 Slot: 4544
 Word: sure                 Frequency: 4              
 
-Slot: 4555
-Word: Mouses               Frequency: 1              
-
 Slot: 4562
 Word: unenforceability     Frequency: 1              
 Word: though               Frequency: 2              
@@ -1572,6 +1507,9 @@ Word: incomplete           Frequency: 1
 
 Slot: 4575
 Word: Herald               Frequency: 1              
+
+Slot: 4599
+Word: V                    Frequency: 1              
 
 Slot: 4626
 Word: trees                Frequency: 4              
@@ -1590,9 +1528,6 @@ Word: Unless               Frequency: 1
 
 Slot: 4717
 Word: telescope            Frequency: 3              
-
-Slot: 4732
-Word: fondofof             Frequency: 1              
 
 Slot: 4737
 Word: REMEDIES             Frequency: 1              
@@ -1616,14 +1551,14 @@ Word: itself               Frequency: 4
 Slot: 4780
 Word: twelve               Frequency: 1              
 
+Slot: 4781
+Word: AS                   Frequency: 1              
+
 Slot: 4790
 Word: wish                 Frequency: 9              
 
 Slot: 4800
 Word: broken               Frequency: 4              
-
-Slot: 4809
-Word: neednt               Frequency: 1              
 
 Slot: 4818
 Word: William              Frequency: 3              
@@ -1646,9 +1581,6 @@ Word: below                Frequency: 5
 Slot: 4880
 Word: follow               Frequency: 1              
 Word: Caterpillar          Frequency: 12             
-
-Slot: 4898
-Word: youare               Frequency: 1              
 
 Slot: 4904
 Word: indeed               Frequency: 5              
@@ -1677,9 +1609,6 @@ Word: grand                Frequency: 1
 
 Slot: 4943
 Word: even                 Frequency: 4              
-
-Slot: 4961
-Word: himWhat              Frequency: 1              
 
 Slot: 4965
 Word: howling              Frequency: 3              
@@ -1712,22 +1641,25 @@ Slot: 5006
 Word: brought              Frequency: 1              
 
 Slot: 5014
-Word: Duchess              Frequency: 21             
+Word: Duchess              Frequency: 23             
 
 Slot: 5056
 Word: meant                Frequency: 2              
 
 Slot: 5076
-Word: a                    Frequency: 322            
+Word: a                    Frequency: 327            
 
 Slot: 5077
-Word: Footman              Frequency: 2              
+Word: Footman              Frequency: 5              
 
 Slot: 5081
 Word: hanging              Frequency: 1              
 
 Slot: 5092
 Word: write                Frequency: 1              
+
+Slot: 5100
+Word: wasn                 Frequency: 1              
 
 Slot: 5104
 Word: gratefully           Frequency: 1              
@@ -1743,15 +1675,13 @@ Word: did                  Frequency: 12
 
 Slot: 5123
 Word: PLEASE               Frequency: 1              
+Word: Fish                 Frequency: 2              
 
 Slot: 5126
 Word: shorter              Frequency: 2              
 
 Slot: 5131
 Word: General              Frequency: 3              
-
-Slot: 5144
-Word: shouldnt             Frequency: 1              
 
 Slot: 5163
 Word: something            Frequency: 10             
@@ -1774,6 +1704,9 @@ Word: shedding             Frequency: 1
 Slot: 5232
 Word: fees                 Frequency: 4              
 
+Slot: 5233
+Word: cart                 Frequency: 1              
+
 Slot: 5236
 Word: banks                Frequency: 1              
 
@@ -1784,7 +1717,7 @@ Slot: 5244
 Word: Full                 Frequency: 1              
 
 Slot: 5252
-Word: way                  Frequency: 22             
+Word: way                  Frequency: 23             
 
 Slot: 5256
 Word: At                   Frequency: 9              
@@ -1797,9 +1730,6 @@ Word: infringement         Frequency: 1
 
 Slot: 5268
 Word: executed             Frequency: 2              
-
-Slot: 5280
-Word: righthand            Frequency: 1              
 
 Slot: 5285
 Word: hear                 Frequency: 7              
@@ -1814,10 +1744,7 @@ Slot: 5305
 Word: last                 Frequency: 15             
 
 Slot: 5316
-Word: the                  Frequency: 735            
-
-Slot: 5317
-Word: teaparty             Frequency: 1              
+Word: the                  Frequency: 741            
 
 Slot: 5319
 Word: reply                Frequency: 2              
@@ -1856,6 +1783,9 @@ Word: ten                  Frequency: 5
 Slot: 5390
 Word: pulling              Frequency: 1              
 
+Slot: 5396
+Word: 9                    Frequency: 4              
+
 Slot: 5397
 Word: tired                Frequency: 4              
 
@@ -1884,9 +1814,6 @@ Word: wander               Frequency: 1
 Slot: 5458
 Word: herself              Frequency: 33             
 
-Slot: 5462
-Word: cucumberframe        Frequency: 1              
-
 Slot: 5466
 Word: Consider             Frequency: 1              
 
@@ -1906,7 +1833,7 @@ Slot: 5504
 Word: donors               Frequency: 1              
 
 Slot: 5505
-Word: out                  Frequency: 53             
+Word: out                  Frequency: 55             
 
 Slot: 5513
 Word: completely           Frequency: 1              
@@ -1932,9 +1859,6 @@ Word: question             Frequency: 8
 
 Slot: 5543
 Word: curving              Frequency: 1              
-
-Slot: 5546
-Word: themall              Frequency: 1              
 
 Slot: 5556
 Word: jumped               Frequency: 2              
@@ -1987,7 +1911,7 @@ Slot: 5661
 Word: has                  Frequency: 5              
 
 Slot: 5687
-Word: enough               Frequency: 5              
+Word: enough               Frequency: 6              
 
 Slot: 5695
 Word: START                Frequency: 2              
@@ -2046,7 +1970,7 @@ Slot: 5866
 Word: LIABLE               Frequency: 1              
 
 Slot: 5889
-Word: they                 Frequency: 34             
+Word: they                 Frequency: 42             
 
 Slot: 5891
 Word: helpless             Frequency: 1              
@@ -2059,9 +1983,6 @@ Word: royalty              Frequency: 1
 
 Slot: 5906
 Word: vulgar               Frequency: 1              
-
-Slot: 5912
-Word: hurrya               Frequency: 1              
 
 Slot: 5917
 Word: hedgehogs            Frequency: 2              
@@ -2081,6 +2002,9 @@ Word: staring              Frequency: 1
 Slot: 5957
 Word: constant             Frequency: 2              
 
+Slot: 5977
+Word: 000                  Frequency: 1              
+
 Slot: 5988
 Word: deletions            Frequency: 1              
 
@@ -2096,7 +2020,7 @@ Slot: 6046
 Word: height               Frequency: 4              
 
 Slot: 6080
-Word: fond                 Frequency: 1              
+Word: fond                 Frequency: 2              
 
 Slot: 6097
 Word: hour                 Frequency: 2              
@@ -2107,11 +2031,11 @@ Word: commotion            Frequency: 1
 Slot: 6108
 Word: pressing             Frequency: 1              
 
+Slot: 6112
+Word: VI                   Frequency: 1              
+
 Slot: 6114
 Word: demand               Frequency: 1              
-
-Slot: 6120
-Word: weve                 Frequency: 1              
 
 Slot: 6121
 Word: mind                 Frequency: 6              
@@ -2129,10 +2053,7 @@ Slot: 6159
 Word: Domain               Frequency: 1              
 
 Slot: 6160
-Word: it                   Frequency: 164            
-
-Slot: 6177
-Word: lefthand             Frequency: 2              
+Word: it                   Frequency: 180            
 
 Slot: 6185
 Word: accepting            Frequency: 1              
@@ -2163,14 +2084,14 @@ Slot: 6256
 Word: fluttered            Frequency: 1              
 
 Slot: 6257
-Word: writing              Frequency: 3              
+Word: writing              Frequency: 4              
 
 Slot: 6269
 Word: word                 Frequency: 2              
 Word: lest                 Frequency: 1              
 
 Slot: 6277
-Word: Rabbit               Frequency: 28             
+Word: Rabbit               Frequency: 31             
 
 Slot: 6286
 Word: secondly             Frequency: 1              
@@ -2178,11 +2099,11 @@ Word: secondly             Frequency: 1
 Slot: 6287
 Word: Suddenly             Frequency: 3              
 
-Slot: 6288
-Word: Wouldnt              Frequency: 1              
-
 Slot: 6289
 Word: want                 Frequency: 3              
+
+Slot: 6298
+Word: shaped               Frequency: 1              
 
 Slot: 6305
 Word: purple               Frequency: 1              
@@ -2194,7 +2115,6 @@ Slot: 6342
 Word: narrow               Frequency: 1              
 
 Slot: 6351
-Word: 5961887              Frequency: 1              
 Word: EVEN                 Frequency: 1              
 Word: talk                 Frequency: 6              
 
@@ -2212,16 +2132,13 @@ Word: measure              Frequency: 1
 Slot: 6393
 Word: committed            Frequency: 1              
 
-Slot: 6404
-Word: games                Frequency: 1              
-
 Slot: 6406
 Word: puzzling             Frequency: 1              
 
 Slot: 6412
 Word: Use                  Frequency: 2              
 Word: pardoned             Frequency: 1              
-Word: riddles              Frequency: 1              
+Word: riddles              Frequency: 2              
 
 Slot: 6447
 Word: over                 Frequency: 14             
@@ -2240,7 +2157,7 @@ Slot: 6473
 Word: certain              Frequency: 4              
 
 Slot: 6484
-Word: that                 Frequency: 106            
+Word: that                 Frequency: 110            
 
 Slot: 6492
 Word: owns                 Frequency: 2              
@@ -2249,7 +2166,13 @@ Slot: 6494
 Word: nonsense             Frequency: 2              
 
 Slot: 6499
-Word: shelves              Frequency: 1              
+Word: shelves              Frequency: 2              
+
+Slot: 6503
+Word: F                    Frequency: 10             
+
+Slot: 6510
+Word: Don                  Frequency: 2              
 
 Slot: 6529
 Word: matters              Frequency: 1              
@@ -2262,7 +2185,6 @@ Word: seems                Frequency: 2
 
 Slot: 6544
 Word: jurors               Frequency: 1              
-Word: SAML                 Frequency: 2              
 
 Slot: 6551
 Word: clearly              Frequency: 1              
@@ -2282,17 +2204,11 @@ Word: pink                 Frequency: 1
 Slot: 6608
 Word: copies               Frequency: 7              
 
-Slot: 6609
-Word: Wheres               Frequency: 2              
-
 Slot: 6613
 Word: Is                   Frequency: 1              
 
 Slot: 6625
 Word: Fury                 Frequency: 2              
-
-Slot: 6627
-Word: 1E4                  Frequency: 1              
 
 Slot: 6631
 Word: moving               Frequency: 1              
@@ -2308,9 +2224,6 @@ Slot: 6667
 Word: length               Frequency: 1              
 Word: overhead             Frequency: 1              
 
-Slot: 6675
-Word: 1F1                  Frequency: 1              
-
 Slot: 6684
 Word: shrieks              Frequency: 1              
 
@@ -2318,7 +2231,7 @@ Slot: 6685
 Word: Stigand              Frequency: 1              
 
 Slot: 6694
-Word: Let                  Frequency: 4              
+Word: Let                  Frequency: 5              
 
 Slot: 6696
 Word: might                Frequency: 7              
@@ -2327,11 +2240,11 @@ Slot: 6702
 Word: story                Frequency: 1              
 Word: hedge                Frequency: 2              
 
+Slot: 6705
+Word: haven                Frequency: 2              
+
 Slot: 6708
 Word: beautiful            Frequency: 2              
-
-Slot: 6710
-Word: Shes                 Frequency: 1              
 
 Slot: 6716
 Word: consultation         Frequency: 1              
@@ -2346,7 +2259,7 @@ Slot: 6729
 Word: mushroom             Frequency: 7              
 
 Slot: 6735
-Word: chin                 Frequency: 3              
+Word: chin                 Frequency: 4              
 
 Slot: 6762
 Word: meet                 Frequency: 3              
@@ -2364,9 +2277,6 @@ Word: love                 Frequency: 2
 Slot: 6801
 Word: edition              Frequency: 1              
 
-Slot: 6803
-Word: VADVICE              Frequency: 1              
-
 Slot: 6811
 Word: pleasant             Frequency: 1              
 
@@ -2375,6 +2285,9 @@ Word: show                 Frequency: 2
 
 Slot: 6822
 Word: types                Frequency: 1              
+
+Slot: 6825
+Word: 6                    Frequency: 2              
 
 Slot: 6828
 Word: makes                Frequency: 5              
@@ -2395,7 +2308,7 @@ Slot: 6894
 Word: thick                Frequency: 1              
 
 Slot: 6895
-Word: won                  Frequency: 2              
+Word: won                  Frequency: 8              
 
 Slot: 6896
 Word: HEARTS               Frequency: 1              
@@ -2409,11 +2322,17 @@ Word: Before               Frequency: 1
 Slot: 6917
 Word: identification       Frequency: 1              
 
+Slot: 6921
+Word: TEA                  Frequency: 1              
+
 Slot: 6926
 Word: crowd                Frequency: 3              
 
 Slot: 6934
 Word: off                  Frequency: 26             
+
+Slot: 6940
+Word: Cats                 Frequency: 1              
 
 Slot: 6948
 Word: unlocked             Frequency: 1              
@@ -2428,7 +2347,7 @@ Slot: 6977
 Word: prisoner             Frequency: 1              
 
 Slot: 6982
-Word: rose                 Frequency: 1              
+Word: rose                 Frequency: 3              
 
 Slot: 6986
 Word: possible             Frequency: 1              
@@ -2453,13 +2372,7 @@ Slot: 7070
 Word: Carroll              Frequency: 3              
 
 Slot: 7073
-Word: She                  Frequency: 36             
-
-Slot: 7074
-Word: bearWhos             Frequency: 1              
-
-Slot: 7086
-Word: 1F                   Frequency: 1              
+Word: She                  Frequency: 38             
 
 Slot: 7108
 Word: maintaining          Frequency: 1              
@@ -2525,6 +2438,12 @@ Word: top                  Frequency: 4
 Slot: 7303
 Word: royalties            Frequency: 2              
 
+Slot: 7312
+Word: didn                 Frequency: 4              
+
+Slot: 7320
+Word: irons                Frequency: 1              
+
 Slot: 7321
 Word: quiver               Frequency: 1              
 
@@ -2539,6 +2458,9 @@ Word: leaning              Frequency: 1
 
 Slot: 7375
 Word: One                  Frequency: 3              
+
+Slot: 7377
+Word: PIG                  Frequency: 1              
 
 Slot: 7409
 Word: deep                 Frequency: 2              
@@ -2555,6 +2477,9 @@ Word: originator           Frequency: 1
 Slot: 7446
 Word: NOT                  Frequency: 2              
 
+Slot: 7456
+Word: waistcoat            Frequency: 2              
+
 Slot: 7466
 Word: page                 Frequency: 2              
 
@@ -2563,6 +2488,9 @@ Word: possession           Frequency: 1
 
 Slot: 7473
 Word: sitting              Frequency: 6              
+
+Slot: 7482
+Word: frame                Frequency: 1              
 
 Slot: 7490
 Word: started              Frequency: 2              
@@ -2580,7 +2508,7 @@ Slot: 7523
 Word: knelt                Frequency: 1              
 
 Slot: 7530
-Word: verdict              Frequency: 2              
+Word: verdict              Frequency: 3              
 
 Slot: 7548
 Word: evidence             Frequency: 4              
@@ -2591,9 +2519,6 @@ Word: rules                Frequency: 4
 
 Slot: 7560
 Word: front                Frequency: 2              
-
-Slot: 7564
-Word: placesall            Frequency: 1              
 
 Slot: 7570
 Word: fancy                Frequency: 1              
@@ -2613,6 +2538,9 @@ Word: wasting              Frequency: 2
 
 Slot: 7604
 Word: compilation          Frequency: 1              
+
+Slot: 7608
+Word: aged                 Frequency: 1              
 
 Slot: 7609
 Word: why                  Frequency: 7              
@@ -2635,6 +2563,9 @@ Word: coming               Frequency: 4
 
 Slot: 7636
 Word: upsetting            Frequency: 1              
+
+Slot: 7640
+Word: Good                 Frequency: 1              
 
 Slot: 7658
 Word: pebbles              Frequency: 2              
@@ -2660,9 +2591,6 @@ Word: changing             Frequency: 1
 
 Slot: 7780
 Word: BILL                 Frequency: 1              
-
-Slot: 7790
-Word: IITHE                Frequency: 1              
 
 Slot: 7805
 Word: CONTRACT             Frequency: 1              
@@ -2720,7 +2648,10 @@ Word: double               Frequency: 1
 Word: chatte               Frequency: 1              
 
 Slot: 7932
-Word: I                    Frequency: 127            
+Word: I                    Frequency: 178            
+
+Slot: 7934
+Word: s                    Frequency: 71             
 
 Slot: 7941
 Word: have                 Frequency: 23             
@@ -2787,7 +2718,7 @@ Word: drop                 Frequency: 1
 
 Slot: 8136
 Word: Of                   Frequency: 3              
-Word: at                   Frequency: 86             
+Word: at                   Frequency: 88             
 
 Slot: 8141
 Word: angrily              Frequency: 1              
@@ -2805,7 +2736,7 @@ Slot: 8179
 Word: Any                  Frequency: 1              
 
 Slot: 8183
-Word: now                  Frequency: 19             
+Word: now                  Frequency: 21             
 
 Slot: 8186
 Word: meeting              Frequency: 1              
@@ -2816,8 +2747,8 @@ Word: play                 Frequency: 6
 Slot: 8195
 Word: boxed                Frequency: 1              
 
-Slot: 8198
-Word: isTake               Frequency: 1              
+Slot: 8200
+Word: examine              Frequency: 1              
 
 Slot: 8208
 Word: carry                Frequency: 1              
@@ -2828,14 +2759,8 @@ Word: errors               Frequency: 1
 Slot: 8236
 Word: either               Frequency: 8              
 
-Slot: 8239
-Word: FrogFootman          Frequency: 1              
-
-Slot: 8240
-Word: thenshe              Frequency: 1              
-
 Slot: 8246
-Word: least                Frequency: 3              
+Word: least                Frequency: 4              
 
 Slot: 8250
 Word: newsletter           Frequency: 1              
@@ -2871,7 +2796,6 @@ Slot: 8372
 Word: muttering            Frequency: 2              
 
 Slot: 8374
-Word: crownHow             Frequency: 1              
 Word: Not                  Frequency: 2              
 
 Slot: 8389
@@ -2888,6 +2812,9 @@ Word: 801                  Frequency: 1
 
 Slot: 8404
 Word: move                 Frequency: 1              
+
+Slot: 8409
+Word: X                    Frequency: 1              
 
 Slot: 8414
 Word: milk                 Frequency: 1              
@@ -2907,27 +2834,25 @@ Word: talking              Frequency: 7
 Slot: 8451
 Word: languid              Frequency: 1              
 
-Slot: 8460
-Word: chimneyNay           Frequency: 1              
-
 Slot: 8464
 Word: applicable           Frequency: 3              
+
+Slot: 8466
+Word: mail                 Frequency: 1              
 
 Slot: 8470
 Word: wide                 Frequency: 2              
 
 Slot: 8475
-Word: cross                Frequency: 1              
+Word: cross                Frequency: 2              
 
 Slot: 8478
 Word: deductible           Frequency: 1              
 Word: PROJECT              Frequency: 4              
 
-Slot: 8496
-Word: wouldnt              Frequency: 1              
-
 Slot: 8497
 Word: discovered           Frequency: 1              
+Word: WHO                  Frequency: 1              
 Word: doubtfully           Frequency: 1              
 
 Slot: 8499
@@ -2952,7 +2877,7 @@ Slot: 8522
 Word: Creating             Frequency: 1              
 
 Slot: 8523
-Word: business             Frequency: 4              
+Word: business             Frequency: 5              
 
 Slot: 8546
 Word: performing           Frequency: 3              
@@ -2968,7 +2893,6 @@ Word: sad                  Frequency: 2
 
 Slot: 8589
 Word: As                   Frequency: 10             
-Word: thats                Frequency: 3              
 
 Slot: 8593
 Word: subject              Frequency: 3              
@@ -3003,10 +2927,12 @@ Word: through              Frequency: 10
 
 Slot: 8704
 Word: Nearly               Frequency: 2              
-Word: teatime              Frequency: 1              
 
 Slot: 8710
 Word: indicate             Frequency: 1              
+
+Slot: 8713
+Word: PARTY                Frequency: 1              
 
 Slot: 8726
 Word: furious              Frequency: 1              
@@ -3018,7 +2944,7 @@ Slot: 8754
 Word: people               Frequency: 8              
 
 Slot: 8757
-Word: arm                  Frequency: 9              
+Word: arm                  Frequency: 10             
 
 Slot: 8765
 Word: dish                 Frequency: 2              
@@ -3055,7 +2981,7 @@ Slot: 8835
 Word: since                Frequency: 3              
 
 Slot: 8884
-Word: A                    Frequency: 6              
+Word: A                    Frequency: 9              
 
 Slot: 8900
 Word: pleasing             Frequency: 1              
@@ -3072,22 +2998,21 @@ Word: bit                  Frequency: 9
 Slot: 8916
 Word: based                Frequency: 2              
 Word: aloud                Frequency: 2              
-Word: whats                Frequency: 2              
 
 Slot: 8920
 Word: slipped              Frequency: 2              
 
+Slot: 8946
+Word: ISO                  Frequency: 1              
+
 Slot: 8950
 Word: bend                 Frequency: 2              
 
-Slot: 8960
-Word: Trials               Frequency: 1              
-
-Slot: 8965
-Word: middleaged           Frequency: 1              
+Slot: 8971
+Word: Nay                  Frequency: 1              
 
 Slot: 8987
-Word: hate                 Frequency: 1              
+Word: hate                 Frequency: 2              
 
 Slot: 9031
 Word: cat                  Frequency: 6              
@@ -3105,7 +3030,7 @@ Slot: 9056
 Word: physical             Frequency: 2              
 
 Slot: 9057
-Word: first                Frequency: 15             
+Word: first                Frequency: 16             
 
 Slot: 9065
 Word: throwing             Frequency: 1              
@@ -3123,6 +3048,9 @@ Word: saves                Frequency: 1
 Slot: 9090
 Word: trembled             Frequency: 1              
 
+Slot: 9092
+Word: Puss                 Frequency: 1              
+
 Slot: 9101
 Word: Mad                  Frequency: 1              
 
@@ -3132,15 +3060,11 @@ Word: Rule                 Frequency: 1
 Slot: 9111
 Word: filled               Frequency: 1              
 
-Slot: 9131
-Word: Goodby               Frequency: 1              
-
 Slot: 9133
 Word: twice                Frequency: 2              
 
 Slot: 9167
 Word: pig                  Frequency: 2              
-Word: withina              Frequency: 1              
 
 Slot: 9176
 Word: where                Frequency: 4              
@@ -3152,6 +3076,7 @@ Slot: 9204
 Word: around               Frequency: 1              
 
 Slot: 9206
+Word: 7                    Frequency: 3              
 Word: accessed             Frequency: 1              
 
 Slot: 9212
@@ -3159,16 +3084,13 @@ Word: theirs               Frequency: 1
 
 Slot: 9225
 Word: Call                 Frequency: 2              
-Word: hurry                Frequency: 4              
-
-Slot: 9229
-Word: lowspirited          Frequency: 1              
+Word: hurry                Frequency: 5              
 
 Slot: 9240
 Word: phrase               Frequency: 4              
 
 Slot: 9258
-Word: Take                 Frequency: 2              
+Word: Take                 Frequency: 3              
 
 Slot: 9277
 Word: despair              Frequency: 1              
@@ -3187,7 +3109,7 @@ Word: taste                Frequency: 2
 
 Slot: 9308
 Word: grown                Frequency: 1              
-Word: you                  Frequency: 141            
+Word: you                  Frequency: 153            
 
 Slot: 9321
 Word: accept               Frequency: 1              
@@ -3214,25 +3136,16 @@ Slot: 9405
 Word: unless               Frequency: 3              
 
 Slot: 9425
-Word: Who                  Frequency: 4              
+Word: Who                  Frequency: 5              
 
 Slot: 9432
 Word: convert              Frequency: 1              
-
-Slot: 9439
-Word: voicesHold           Frequency: 1              
-
-Slot: 9454
-Word: QUEENS               Frequency: 1              
 
 Slot: 9456
 Word: Hearts               Frequency: 6              
 
 Slot: 9462
 Word: earnestly            Frequency: 1              
-
-Slot: 9467
-Word: 1E                   Frequency: 2              
 
 Slot: 9473
 Word: maximum              Frequency: 1              
@@ -3241,14 +3154,11 @@ Slot: 9480
 Word: shrinking            Frequency: 4              
 
 Slot: 9493
-Word: is                   Frequency: 62             
+Word: is                   Frequency: 64             
 
 Slot: 9502
 Word: slightest            Frequency: 1              
 Word: remember             Frequency: 3              
-
-Slot: 9503
-Word: IIIA                 Frequency: 1              
 
 Slot: 9521
 Word: failure              Frequency: 1              
@@ -3278,7 +3188,7 @@ Slot: 9600
 Word: See                  Frequency: 2              
 
 Slot: 9603
-Word: places               Frequency: 1              
+Word: places               Frequency: 2              
 
 Slot: 9615
 Word: remarking            Frequency: 2              
@@ -3290,13 +3200,13 @@ Slot: 9630
 Word: soup                 Frequency: 3              
 
 Slot: 9634
-Word: copyright            Frequency: 12             
+Word: copyright            Frequency: 13             
+
+Slot: 9637
+Word: ll                   Frequency: 22             
 
 Slot: 9638
 Word: clubs                Frequency: 1              
-
-Slot: 9640
-Word: bookshelves          Frequency: 1              
 
 Slot: 9644
 Word: forth                Frequency: 8              
@@ -3329,10 +3239,13 @@ Slot: 9701
 Word: painting             Frequency: 2              
 
 Slot: 9709
-Word: are                  Frequency: 35             
+Word: are                  Frequency: 36             
 
 Slot: 9729
 Word: requirements         Frequency: 4              
+
+Slot: 9745
+Word: txt                  Frequency: 1              
 
 Slot: 9755
 Word: HAVE                 Frequency: 1              
@@ -3349,11 +3262,8 @@ Word: side                 Frequency: 9
 Slot: 9823
 Word: chanced              Frequency: 1              
 
-Slot: 9834
-Word: theres               Frequency: 6              
-
 Slot: 9838
-Word: c                    Frequency: 1              
+Word: c                    Frequency: 3              
 
 Slot: 9844
 Word: damaged              Frequency: 1              
@@ -3373,9 +3283,6 @@ Word: tis                  Frequency: 2
 Slot: 9876
 Word: sea                  Frequency: 2              
 
-Slot: 9877
-Word: Jackinthebox         Frequency: 1              
-
 Slot: 9878
 Word: Then                 Frequency: 8              
 
@@ -3383,7 +3290,7 @@ Slot: 9893
 Word: exporting            Frequency: 1              
 
 Slot: 9896
-Word: book                 Frequency: 4              
+Word: book                 Frequency: 7              
 
 Slot: 9903
 Word: Royalty              Frequency: 2              
@@ -3394,12 +3301,11 @@ Word: lock                 Frequency: 1
 Slot: 9919
 Word: oneself              Frequency: 1              
 
-Slot: 9960
-Word: 1E3                  Frequency: 1              
-
 Slot: 9964
 Word: STOLE                Frequency: 1              
-Word: saltwater            Frequency: 2              
+
+Slot: 9976
+Word: 6221541              Frequency: 1              
 
 Slot: 9980
 Word: crossly              Frequency: 1              
@@ -3420,9 +3326,6 @@ Word: knee                 Frequency: 1
 
 Slot: 10001
 Word: raw                  Frequency: 1              
-
-Slot: 10008
-Word: 1F6                  Frequency: 1              
 
 Slot: 10019
 Word: Please               Frequency: 4              
@@ -3447,12 +3350,19 @@ Word: heard                Frequency: 17
 
 Slot: 10064
 Word: on                   Frequency: 73             
+Word: re                   Frequency: 17             
+
+Slot: 10076
+Word: Cheshire             Frequency: 5              
 
 Slot: 10078
 Word: Edwin                Frequency: 1              
 
 Slot: 10083
 Word: label                Frequency: 1              
+
+Slot: 10105
+Word: cucumber             Frequency: 1              
 
 Slot: 10106
 Word: United               Frequency: 10             
@@ -3462,7 +3372,7 @@ Word: Contact              Frequency: 1
 Word: raven                Frequency: 1              
 
 Slot: 10119
-Word: fire                 Frequency: 2              
+Word: fire                 Frequency: 3              
 
 Slot: 10129
 Word: PUNITIVE             Frequency: 1              
@@ -3473,17 +3383,14 @@ Word: Pepper               Frequency: 1
 Slot: 10163
 Word: charities            Frequency: 1              
 
-Slot: 10169
-Word: businesspglaforg     Frequency: 1              
-
 Slot: 10176
 Word: obtain               Frequency: 3              
 
 Slot: 10177
 Word: shut                 Frequency: 3              
 
-Slot: 10205
-Word: httpgutenbergorglicense Frequency: 1              
+Slot: 10180
+Word: wouldn               Frequency: 1              
 
 Slot: 10209
 Word: Very                 Frequency: 2              
@@ -3494,20 +3401,20 @@ Word: much                 Frequency: 14
 Slot: 10217
 Word: fitted               Frequency: 1              
 
-Slot: 10219
-Word: Foundations          Frequency: 3              
-
 Slot: 10230
-Word: state                Frequency: 6              
-
-Slot: 10263
-Word: usedand              Frequency: 1              
+Word: state                Frequency: 7              
 
 Slot: 10268
 Word: DIRECT               Frequency: 1              
 
+Slot: 10281
+Word: spirited             Frequency: 1              
+
 Slot: 10286
 Word: confirmed            Frequency: 1              
+
+Slot: 10292
+Word: Catch                Frequency: 1              
 
 Slot: 10294
 Word: shyly                Frequency: 1              
@@ -3517,9 +3424,6 @@ Word: quietly              Frequency: 2
 
 Slot: 10348
 Word: Silence              Frequency: 2              
-
-Slot: 10353
-Word: cartwheels           Frequency: 1              
 
 Slot: 10360
 Word: become               Frequency: 1              
@@ -3538,6 +3442,9 @@ Word: while                Frequency: 5
 
 Slot: 10417
 Word: arise                Frequency: 1              
+
+Slot: 10421
+Word: IS                   Frequency: 1              
 
 Slot: 10427
 Word: LIMITED              Frequency: 3              
@@ -3576,9 +3483,6 @@ Word: soldiers             Frequency: 3
 Slot: 10525
 Word: locks                Frequency: 1              
 
-Slot: 10550
-Word: onethe               Frequency: 1              
-
 Slot: 10580
 Word: archbishop           Frequency: 2              
 
@@ -3598,10 +3502,7 @@ Slot: 10623
 Word: assembled            Frequency: 2              
 
 Slot: 10632
-Word: Where                Frequency: 3              
-
-Slot: 10643
-Word: croquetground        Frequency: 2              
+Word: Where                Frequency: 5              
 
 Slot: 10644
 Word: small                Frequency: 9              
@@ -3619,7 +3520,7 @@ Slot: 10671
 Word: warning              Frequency: 1              
 
 Slot: 10673
-Word: what                 Frequency: 25             
+Word: what                 Frequency: 27             
 
 Slot: 10677
 Word: execution            Frequency: 2              
@@ -3637,9 +3538,6 @@ Word: soon                 Frequency: 13
 Slot: 10705
 Word: comply               Frequency: 6              
 
-Slot: 10706
-Word: saythats             Frequency: 1              
-
 Slot: 10733
 Word: trial                Frequency: 4              
 
@@ -3647,20 +3545,17 @@ Slot: 10735
 Word: remark               Frequency: 1              
 
 Slot: 10736
-Word: crown                Frequency: 2              
+Word: crown                Frequency: 3              
 
 Slot: 10743
 Word: practically          Frequency: 1              
 
 Slot: 10758
-Word: Pat                  Frequency: 2              
+Word: Pat                  Frequency: 3              
 
 Slot: 10760
-Word: course               Frequency: 7              
+Word: course               Frequency: 8              
 Word: cost                 Frequency: 3              
-
-Slot: 10762
-Word: rosetree             Frequency: 2              
 
 Slot: 10775
 Word: attending            Frequency: 1              
@@ -3683,9 +3578,6 @@ Word: receive              Frequency: 3
 Slot: 10819
 Word: agree                Frequency: 7              
 
-Slot: 10821
-Word: ISO88591             Frequency: 1              
-
 Slot: 10829
 Word: disclaimers          Frequency: 1              
 
@@ -3696,7 +3588,7 @@ Slot: 10854
 Word: softly               Frequency: 1              
 
 Slot: 10861
-Word: How                  Frequency: 7              
+Word: How                  Frequency: 8              
 
 Slot: 10863
 Word: volunteer            Frequency: 1              
@@ -3704,17 +3596,11 @@ Word: volunteer            Frequency: 1
 Slot: 10865
 Word: eggs                 Frequency: 3              
 
-Slot: 10866
-Word: hateC                Frequency: 1              
-
 Slot: 10874
 Word: snatch               Frequency: 2              
 
 Slot: 10889
 Word: confusing            Frequency: 1              
-
-Slot: 10892
-Word: Whats                Frequency: 1              
 
 Slot: 10897
 Word: stairs               Frequency: 1              
@@ -3722,23 +3608,17 @@ Word: stairs               Frequency: 1
 Slot: 10903
 Word: search               Frequency: 2              
 
-Slot: 10910
-Word: writingdesk          Frequency: 1              
-
 Slot: 10922
-Word: know                 Frequency: 21             
+Word: know                 Frequency: 22             
 
 Slot: 10930
 Word: curiouser            Frequency: 1              
 
 Slot: 10932
-Word: use                  Frequency: 12             
+Word: use                  Frequency: 14             
 
 Slot: 10956
 Word: whispered            Frequency: 1              
-
-Slot: 10973
-Word: IVTHE                Frequency: 1              
 
 Slot: 10994
 Word: request              Frequency: 1              
@@ -3749,23 +3629,17 @@ Word: choke                Frequency: 1
 Slot: 11000
 Word: keep                 Frequency: 3              
 
-Slot: 11002
-Word: armchair             Frequency: 1              
-
 Slot: 11007
 Word: transcription        Frequency: 1              
 
 Slot: 11016
-Word: of                   Frequency: 303            
+Word: of                   Frequency: 306            
 
 Slot: 11020
 Word: ones                 Frequency: 1              
 
 Slot: 11032
 Word: placed               Frequency: 1              
-
-Slot: 11035
-Word:                      Frequency: 22             
 
 Slot: 11040
 Word: called               Frequency: 10             
@@ -3790,6 +3664,7 @@ Word: AGREEMENT            Frequency: 1
 
 Slot: 11093
 Word: playing              Frequency: 1              
+Word: VII                  Frequency: 1              
 
 Slot: 11098
 Word: payments             Frequency: 3              
@@ -3810,8 +3685,14 @@ Word: Still                Frequency: 1
 Slot: 11154
 Word: Most                 Frequency: 1              
 
+Slot: 11158
+Word: chain                Frequency: 1              
+
+Slot: 11159
+Word: CAUCUS               Frequency: 1              
+
 Slot: 11200
-Word: hand                 Frequency: 10             
+Word: hand                 Frequency: 13             
 
 Slot: 11219
 Word: Sections             Frequency: 1              
@@ -3825,9 +3706,6 @@ Word: PROVIDED             Frequency: 1
 Slot: 11248
 Word: toast                Frequency: 1              
 
-Slot: 11251
-Word: leastat              Frequency: 1              
-
 Slot: 11267
 Word: shook                Frequency: 3              
 
@@ -3839,23 +3717,17 @@ Slot: 11284
 Word: sound                Frequency: 2              
 
 Slot: 11287
-Word: speak                Frequency: 2              
+Word: speak                Frequency: 3              
 
 Slot: 11308
 Word: Redistributing       Frequency: 1              
 
-Slot: 11317
-Word: rabbithole           Frequency: 2              
-
 Slot: 11321
 Word: curtain              Frequency: 1              
 
-Slot: 11326
-Word: goodnaturedly        Frequency: 1              
-
 Slot: 11332
-Word: all                  Frequency: 76             
-Word: You                  Frequency: 24             
+Word: all                  Frequency: 79             
+Word: You                  Frequency: 29             
 
 Slot: 11334
 Word: authority            Frequency: 1              
@@ -3878,10 +3750,6 @@ Word: velvet               Frequency: 1
 Slot: 11386
 Word: whispers             Frequency: 1              
 Word: lying                Frequency: 4              
-
-Slot: 11389
-Word: Youre                Frequency: 4              
-Word: seeneverything       Frequency: 1              
 
 Slot: 11391
 Word: seldom               Frequency: 1              
@@ -3932,7 +3800,7 @@ Slot: 11474
 Word: Chief                Frequency: 1              
 
 Slot: 11475
-Word: beds                 Frequency: 1              
+Word: beds                 Frequency: 2              
 
 Slot: 11476
 Word: magic                Frequency: 1              
@@ -3977,7 +3845,7 @@ Slot: 11575
 Word: pigeon               Frequency: 1              
 
 Slot: 11587
-Word: 4                    Frequency: 3              
+Word: 4                    Frequency: 5              
 
 Slot: 11599
 Word: calculated           Frequency: 1              
@@ -3989,7 +3857,7 @@ Slot: 11613
 Word: years                Frequency: 1              
 
 Slot: 11616
-Word: everything           Frequency: 2              
+Word: everything           Frequency: 3              
 
 Slot: 11617
 Word: life                 Frequency: 4              
@@ -4022,6 +3890,9 @@ Word: poor                 Frequency: 8
 Slot: 11658
 Word: Nothing              Frequency: 1              
 
+Slot: 11672
+Word: cherry               Frequency: 1              
+
 Slot: 11708
 Word: COMPANY              Frequency: 2              
 
@@ -4032,7 +3903,7 @@ Slot: 11735
 Word: nonproprietary       Frequency: 1              
 
 Slot: 11742
-Word: S                    Frequency: 2              
+Word: S                    Frequency: 9              
 
 Slot: 11746
 Word: ought                Frequency: 5              
@@ -4046,9 +3917,6 @@ Word: anxiously            Frequency: 5
 
 Slot: 11779
 Word: Stuff                Frequency: 1              
-
-Slot: 11790
-Word: nowall               Frequency: 1              
 
 Slot: 11793
 Word: indicating           Frequency: 1              
@@ -4065,8 +3933,8 @@ Word: inquisitively        Frequency: 1
 Slot: 11828
 Word: prizes               Frequency: 3              
 
-Slot: 11848
-Word: 1D                   Frequency: 1              
+Slot: 11836
+Word: pot                  Frequency: 1              
 
 Slot: 11850
 Word: 12                   Frequency: 1              
@@ -4075,14 +3943,10 @@ Slot: 11853
 Word: MARMALADE            Frequency: 1              
 
 Slot: 11878
-Word: lookout              Frequency: 1              
 Word: conversation         Frequency: 2              
 
-Slot: 11882
-Word: flowerbeds           Frequency: 1              
-
 Slot: 11898
-Word: No                   Frequency: 6              
+Word: No                   Frequency: 7              
 
 Slot: 11914
 Word: TEARS                Frequency: 1              
@@ -4093,6 +3957,9 @@ Word: Mind                 Frequency: 1
 Slot: 11939
 Word: serpents             Frequency: 2              
 
+Slot: 11946
+Word: tm                   Frequency: 57             
+
 Slot: 11948
 Word: hot                  Frequency: 2              
 
@@ -4102,9 +3969,6 @@ Word: arms                 Frequency: 5
 
 Slot: 11967
 Word: tied                 Frequency: 1              
-
-Slot: 11968
-Word: nowDont              Frequency: 1              
 
 Slot: 11971
 Word: necessarily          Frequency: 1              
@@ -4125,12 +3989,8 @@ Word: safe                 Frequency: 1
 Slot: 12013
 Word: going                Frequency: 12             
 
-Slot: 12051
-Word: VIIITHE              Frequency: 1              
-
-Slot: 12052
-Word: fishand              Frequency: 1              
-Word: youll                Frequency: 1              
+Slot: 12049
+Word: naturedly            Frequency: 1              
 
 Slot: 12056
 Word: facility             Frequency: 1              
@@ -4190,9 +4050,6 @@ Word: paragraphs           Frequency: 3
 Slot: 12239
 Word: swamp                Frequency: 1              
 
-Slot: 12248
-Word: httpwwwpgdpnet       Frequency: 2              
-
 Slot: 12250
 Word: maps                 Frequency: 1              
 
@@ -4208,6 +4065,9 @@ Word: energetic            Frequency: 1
 Slot: 12283
 Word: beat                 Frequency: 1              
 
+Slot: 12291
+Word: wheels               Frequency: 1              
+
 Slot: 12311
 Word: well                 Frequency: 16             
 
@@ -4221,13 +4081,12 @@ Slot: 12335
 Word: variety              Frequency: 1              
 
 Slot: 12336
-Word: water                Frequency: 1              
+Word: water                Frequency: 3              
 
 Slot: 12337
 Word: done                 Frequency: 4              
 
 Slot: 12341
-Word: 1E2                  Frequency: 1              
 Word: ring                 Frequency: 2              
 
 Slot: 12352
@@ -4239,17 +4098,20 @@ Word: feathers             Frequency: 1
 Slot: 12356
 Word: defect               Frequency: 2              
 
-Slot: 12375
-Word: Ive                  Frequency: 10             
-
 Slot: 12377
 Word: Our                  Frequency: 1              
 
 Slot: 12378
 Word: white                Frequency: 7              
 
+Slot: 12380
+Word: Wouldn               Frequency: 1              
+
 Slot: 12390
 Word: restrictions         Frequency: 2              
+
+Slot: 12403
+Word: sha                  Frequency: 3              
 
 Slot: 12407
 Word: behind               Frequency: 3              
@@ -4284,21 +4146,13 @@ Word: general              Frequency: 2
 
 Slot: 12492
 Word: research             Frequency: 2              
+Word: present              Frequency: 1              
 
 Slot: 12498
 Word: proprietary          Frequency: 1              
 
-Slot: 12501
-Word: sensationshe         Frequency: 1              
-
-Slot: 12502
-Word: theyre               Frequency: 4              
-
 Slot: 12503
 Word: dive                 Frequency: 1              
-
-Slot: 12512
-Word: 190338zip            Frequency: 1              
 
 Slot: 12519
 Word: ME                   Frequency: 2              
@@ -4316,7 +4170,7 @@ Slot: 12529
 Word: costs                Frequency: 2              
 
 Slot: 12535
-Word: bank                 Frequency: 2              
+Word: bank                 Frequency: 3              
 
 Slot: 12560
 Word: else                 Frequency: 3              
@@ -4331,7 +4185,7 @@ Slot: 12581
 Word: same                 Frequency: 12             
 
 Slot: 12585
-Word: QUEEN                Frequency: 1              
+Word: QUEEN                Frequency: 2              
 
 Slot: 12589
 Word: performed            Frequency: 1              
@@ -4343,11 +4197,7 @@ Slot: 12605
 Word: however              Frequency: 2              
 
 Slot: 12658
-Word: 646221541            Frequency: 1              
 Word: Was                  Frequency: 1              
-
-Slot: 12663
-Word: Shant                Frequency: 1              
 
 Slot: 12672
 Word: DAMAGE               Frequency: 1              
@@ -4359,7 +4209,6 @@ Slot: 12694
 Word: replied              Frequency: 6              
 
 Slot: 12709
-Word: Duchesss             Frequency: 2              
 Word: directions           Frequency: 2              
 
 Slot: 12711
@@ -4374,9 +4223,6 @@ Word: While                Frequency: 1
 Slot: 12728
 Word: Canterbury           Frequency: 1              
 
-Slot: 12735
-Word: theyd                Frequency: 1              
-
 Slot: 12742
 Word: listen               Frequency: 2              
 
@@ -4384,10 +4230,7 @@ Slot: 12747
 Word: confusion            Frequency: 4              
 
 Slot: 12751
-Word: What                 Frequency: 11             
-
-Slot: 12756
-Word: lessonbook           Frequency: 1              
+Word: What                 Frequency: 13             
 
 Slot: 12759
 Word: WITH                 Frequency: 1              
@@ -4402,8 +4245,8 @@ Slot: 12785
 Word: asleep               Frequency: 2              
 
 Slot: 12792
-Word: Hold                 Frequency: 1              
 Word: feeble               Frequency: 1              
+Word: Hold                 Frequency: 2              
 
 Slot: 12797
 Word: condemn              Frequency: 1              
@@ -4453,7 +4296,7 @@ Word: Ah                   Frequency: 2
 Word: felt                 Frequency: 7              
 
 Slot: 12898
-Word: Oh                   Frequency: 15             
+Word: Oh                   Frequency: 16             
 
 Slot: 12905
 Word: Speak                Frequency: 1              
@@ -4492,14 +4335,8 @@ Word: dipped               Frequency: 1
 Slot: 13012
 Word: THAT                 Frequency: 2              
 
-Slot: 13015
-Word: kidgloves            Frequency: 5              
-
 Slot: 13020
 Word: paws                 Frequency: 1              
-
-Slot: 13023
-Word: havent               Frequency: 2              
 
 Slot: 13035
 Word: doubt                Frequency: 1              
@@ -4532,7 +4369,7 @@ Slot: 13101
 Word: pause                Frequency: 1              
 
 Slot: 13104
-Word: heads                Frequency: 3              
+Word: heads                Frequency: 2              
 
 Slot: 13126
 Word: tax                  Frequency: 6              
@@ -4554,7 +4391,7 @@ Word: resource             Frequency: 1
 
 Slot: 13156
 Word: Donations            Frequency: 2              
-Word: time                 Frequency: 21             
+Word: time                 Frequency: 22             
 
 Slot: 13176
 Word: mile                 Frequency: 2              
@@ -4578,11 +4415,11 @@ Word: taking               Frequency: 1
 Slot: 13264
 Word: charitable           Frequency: 1              
 
-Slot: 13268
-Word: didnt                Frequency: 4              
-
 Slot: 13273
 Word: paper                Frequency: 4              
+
+Slot: 13274
+Word: gutenberg            Frequency: 6              
 
 Slot: 13275
 Word: codes                Frequency: 1              
@@ -4614,12 +4451,6 @@ Word: ran                  Frequency: 10
 Slot: 13341
 Word: spot                 Frequency: 1              
 
-Slot: 13354
-Word: Theyre               Frequency: 1              
-
-Slot: 13372
-Word: ALICES               Frequency: 2              
-
 Slot: 13373
 Word: miserable            Frequency: 1              
 
@@ -4649,12 +4480,6 @@ Word: future               Frequency: 3
 
 Slot: 13432
 Word: prohibition          Frequency: 1              
-
-Slot: 13444
-Word: httppglaforgdonate   Frequency: 1              
-
-Slot: 13455
-Word: httppglaforg         Frequency: 2              
 
 Slot: 13458
 Word: dripping             Frequency: 1              
@@ -4686,7 +4511,7 @@ Slot: 13586
 Word: stupidest            Frequency: 1              
 
 Slot: 13588
-Word: chimney              Frequency: 4              
+Word: chimney              Frequency: 5              
 
 Slot: 13595
 Word: hookah               Frequency: 3              
@@ -4706,13 +4531,12 @@ Word: profits              Frequency: 1
 Slot: 13630
 Word: Nobody               Frequency: 2              
 
-Slot: 13636
-Word: Ill                  Frequency: 13             
-
 Slot: 13642
 Word: 30                   Frequency: 1              
 Word: particular           Frequency: 4              
-Word: doesnt               Frequency: 3              
+
+Slot: 13646
+Word: C                    Frequency: 3              
 
 Slot: 13654
 Word: direction            Frequency: 3              
@@ -4745,20 +4569,13 @@ Slot: 13722
 Word: cupboards            Frequency: 2              
 
 Slot: 13729
-Word: gbnewbypglaforg      Frequency: 1              
 Word: little               Frequency: 58             
 
 Slot: 13735
-Word: ALICE                Frequency: 2              
-
-Slot: 13737
-Word: trademarkcopyright   Frequency: 1              
+Word: ALICE                Frequency: 5              
 
 Slot: 13745
 Word: man                  Frequency: 2              
-
-Slot: 13747
-Word: Thats                Frequency: 5              
 
 Slot: 13783
 Word: preserve             Frequency: 1              
@@ -4778,6 +4595,9 @@ Word: rise                 Frequency: 1
 
 Slot: 13803
 Word: engraved             Frequency: 1              
+
+Slot: 13809
+Word: 1887                 Frequency: 1              
 
 Slot: 13815
 Word: After                Frequency: 6              
@@ -4831,10 +4651,13 @@ Slot: 13911
 Word: Imagine              Frequency: 1              
 
 Slot: 13915
-Word: piece                Frequency: 4              
+Word: piece                Frequency: 5              
 
 Slot: 13921
 Word: draggled             Frequency: 1              
+
+Slot: 13927
+Word: O�                   Frequency: 1              
 
 Slot: 13928
 Word: hold                 Frequency: 2              
@@ -4845,14 +4668,11 @@ Word: fight                Frequency: 1
 Slot: 13942
 Word: nose                 Frequency: 1              
 
-Slot: 13955
-Word: httppglaforgfundraising Frequency: 1              
-
 Slot: 13961
 Word: hurriedly            Frequency: 2              
 
 Slot: 13968
-Word: 5                    Frequency: 1              
+Word: 5                    Frequency: 4              
 Word: Updated              Frequency: 1              
 
 Slot: 13973
@@ -4876,23 +4696,18 @@ Word: except               Frequency: 1
 Slot: 14037
 Word: scolded              Frequency: 1              
 
-Slot: 14038
-Word: httpwwwpglaforg      Frequency: 1              
-
 Slot: 14048
 Word: depends              Frequency: 1              
 
-Slot: 14053
-Word: TEAPARTY             Frequency: 1              
-
 Slot: 14060
 Word: appearing            Frequency: 1              
+Word: zip                  Frequency: 1              
 
 Slot: 14065
 Word: new                  Frequency: 3              
 
 Slot: 14084
-Word: license              Frequency: 3              
+Word: license              Frequency: 4              
 
 Slot: 14088
 Word: Nor                  Frequency: 1              
@@ -4926,7 +4741,7 @@ Slot: 14179
 Word: largest              Frequency: 1              
 
 Slot: 14183
-Word: Its                  Frequency: 6              
+Word: Its                  Frequency: 2              
 
 Slot: 14214
 Word: poured               Frequency: 1              
@@ -4935,13 +4750,16 @@ Slot: 14216
 Word: watch                Frequency: 2              
 
 Slot: 14227
-Word: Trial                Frequency: 1              
+Word: Trial                Frequency: 2              
 
 Slot: 14230
 Word: owed                 Frequency: 1              
 
 Slot: 14231
 Word: II                   Frequency: 1              
+
+Slot: 14246
+Word: Jack                 Frequency: 1              
 
 Slot: 14257
 Word: complying            Frequency: 3              
@@ -4952,11 +4770,11 @@ Word: READ                 Frequency: 1
 Slot: 14276
 Word: dream                Frequency: 2              
 
+Slot: 14279
+Word: 64                   Frequency: 1              
+
 Slot: 14284
 Word: solid                Frequency: 1              
-
-Slot: 14304
-Word: 5000                 Frequency: 1              
 
 Slot: 14311
 Word: REPLACEMENT          Frequency: 1              
@@ -4965,7 +4783,7 @@ Slot: 14329
 Word: Canary               Frequency: 1              
 
 Slot: 14341
-Word: right                Frequency: 9              
+Word: right                Frequency: 10             
 
 Slot: 14347
 Word: from                 Frequency: 31             
@@ -4974,7 +4792,7 @@ Slot: 14361
 Word: PARAGRAPH            Frequency: 1              
 
 Slot: 14364
-Word: Foundation           Frequency: 21             
+Word: Foundation           Frequency: 24             
 
 Slot: 14374
 Word: immediate            Frequency: 3              
@@ -4997,6 +4815,9 @@ Word: pulled               Frequency: 1
 Slot: 14403
 Word: yer                  Frequency: 2              
 
+Slot: 14408
+Word: desk                 Frequency: 1              
+
 Slot: 14409
 Word: hands                Frequency: 6              
 Word: Well                 Frequency: 7              
@@ -5004,11 +4825,8 @@ Word: Well                 Frequency: 7
 Slot: 14410
 Word: wondering            Frequency: 1              
 
-Slot: 14420
-Word: chinit               Frequency: 1              
-
 Slot: 14423
-Word: Queen                Frequency: 27             
+Word: Queen                Frequency: 28             
 
 Slot: 14426
 Word: dears                Frequency: 2              
@@ -5029,12 +4847,9 @@ Word: pair                 Frequency: 4
 Slot: 14455
 Word: clapping             Frequency: 1              
 
-Slot: 14457
-Word: andoh                Frequency: 1              
-
 Slot: 14461
 Word: tongue               Frequency: 1              
-Word: them                 Frequency: 30             
+Word: them                 Frequency: 31             
 
 Slot: 14479
 Word: charge               Frequency: 6              
@@ -5045,26 +4860,26 @@ Word: throughout           Frequency: 1
 Slot: 14512
 Word: EXCEPT               Frequency: 1              
 
+Slot: 14518
+Word: nasty                Frequency: 1              
+
 Slot: 14535
 Word: ridges               Frequency: 1              
 
 Slot: 14537
 Word: addition             Frequency: 1              
 
-Slot: 14572
-Word: CAUCUSRACE           Frequency: 1              
-
 Slot: 14577
 Word: until                Frequency: 3              
+
+Slot: 14600
+Word: m                    Frequency: 21             
 
 Slot: 14622
 Word: graceful             Frequency: 1              
 
 Slot: 14633
 Word: corporation          Frequency: 1              
-
-Slot: 14634
-Word: tonight              Frequency: 1              
 
 Slot: 14636
 Word: 90                   Frequency: 2              
@@ -5087,6 +4902,7 @@ Word: waving               Frequency: 2
 Slot: 14683
 Word: tumbling             Frequency: 1              
 Word: timidly              Frequency: 4              
+Word: http                 Frequency: 10             
 
 Slot: 14707
 Word: cares                Frequency: 1              
@@ -5095,16 +4911,13 @@ Slot: 14708
 Word: venture              Frequency: 1              
 
 Slot: 14710
-Word: animals              Frequency: 5              
+Word: animals              Frequency: 4              
 
 Slot: 14714
 Word: processing           Frequency: 1              
 
 Slot: 14717
 Word: commercial           Frequency: 1              
-
-Slot: 14722
-Word: 1E1                  Frequency: 5              
 
 Slot: 14726
 Word: editions             Frequency: 4              
@@ -5115,9 +4928,6 @@ Word: 4557                 Frequency: 1
 Slot: 14769
 Word: together             Frequency: 5              
 
-Slot: 14770
-Word: 1F4                  Frequency: 1              
-
 Slot: 14776
 Word: impossible           Frequency: 1              
 
@@ -5127,8 +4937,8 @@ Word: no                   Frequency: 30
 Slot: 14780
 Word: periodic             Frequency: 1              
 
-Slot: 14807
-Word: fortytwo             Frequency: 1              
+Slot: 14791
+Word: Frog                 Frequency: 1              
 
 Slot: 14811
 Word: impatiently          Frequency: 2              
@@ -5161,7 +4971,7 @@ Slot: 14930
 Word: home                 Frequency: 2              
 
 Slot: 14945
-Word: Kings                Frequency: 2              
+Word: Kings                Frequency: 1              
 
 Slot: 14962
 Word: machine              Frequency: 1              
@@ -5178,9 +4988,6 @@ Word: poison               Frequency: 3
 Slot: 14993
 Word: computers            Frequency: 2              
 
-Slot: 14994
-Word: bankthe              Frequency: 1              
-
 Slot: 14996
 Word: another              Frequency: 9              
 
@@ -5194,13 +5001,10 @@ Slot: 15023
 Word: proper               Frequency: 1              
 
 Slot: 15046
-Word: and                  Frequency: 384            
-
-Slot: 15058
-Word: apiece               Frequency: 1              
+Word: and                  Frequency: 388            
 
 Slot: 15060
-Word: trademark            Frequency: 9              
+Word: trademark            Frequency: 10             
 
 Slot: 15064
 Word: cease                Frequency: 1              
@@ -5227,23 +5031,16 @@ Slot: 15138
 Word: passion              Frequency: 1              
 
 Slot: 15143
-Word: Alice                Frequency: 166            
+Word: Alice                Frequency: 172            
 
 Slot: 15146
-Word: moments              Frequency: 1              
 Word: natural              Frequency: 1              
 
 Slot: 15156
 Word: caldron              Frequency: 2              
 
-Slot: 15181
-Word: 1C                   Frequency: 2              
-
 Slot: 15183
 Word: NOTICE               Frequency: 1              
-
-Slot: 15187
-Word: reuse                Frequency: 2              
 
 Slot: 15207
 Word: straight             Frequency: 1              
@@ -5255,7 +5052,7 @@ Slot: 15215
 Word: live                 Frequency: 2              
 
 Slot: 15227
-Word: RABBIT               Frequency: 2              
+Word: RABBIT               Frequency: 3              
 
 Slot: 15230
 Word: comfits              Frequency: 2              
@@ -5269,17 +5066,18 @@ Word: under                Frequency: 15
 Slot: 15258
 Word: escape               Frequency: 3              
 
-Slot: 15259
-Word: Gutenbergtm          Frequency: 55             
-
 Slot: 15265
 Word: sometimes            Frequency: 3              
 
 Slot: 15271
 Word: Last                 Frequency: 1              
+Word: daisy                Frequency: 1              
 
 Slot: 15291
-Word: rabbit               Frequency: 1              
+Word: rabbit               Frequency: 3              
+
+Slot: 15299
+Word: note                 Frequency: 1              
 
 Slot: 15302
 Word: flat                 Frequency: 1              
@@ -5298,9 +5096,6 @@ Word: so                   Frequency: 31
 
 Slot: 15352
 Word: OF                   Frequency: 12             
-
-Slot: 15361
-Word: youve                Frequency: 2              
 
 Slot: 15368
 Word: patriotic            Frequency: 1              
@@ -5328,7 +5123,7 @@ Word: When                 Frequency: 6
 
 Slot: 15431
 Word: Email                Frequency: 1              
-Word: game                 Frequency: 3              
+Word: game                 Frequency: 4              
 Word: courtiers            Frequency: 1              
 
 Slot: 15433
@@ -5337,17 +5132,11 @@ Word: Atheling             Frequency: 1
 Slot: 15437
 Word: concept              Frequency: 2              
 
-Slot: 15438
-Word: speakand             Frequency: 1              
-
 Slot: 15449
 Word: expense              Frequency: 1              
 
 Slot: 15456
 Word: WORK                 Frequency: 1              
-
-Slot: 15465
-Word: shant                Frequency: 3              
 
 Slot: 15473
 Word: custard              Frequency: 1              
@@ -5370,13 +5159,11 @@ Word: came                 Frequency: 25
 Slot: 15542
 Word: days                 Frequency: 4              
 
-Slot: 15544
-Word: teapot               Frequency: 1              
-
 Slot: 15546
-Word: Gutenberg            Frequency: 27             
+Word: Gutenberg            Frequency: 83             
 
 Slot: 15552
+Word: e                    Frequency: 1              
 Word: ceiling              Frequency: 1              
 
 Slot: 15568
@@ -5395,14 +5182,10 @@ Slot: 15663
 Word: DRINK                Frequency: 1              
 
 Slot: 15674
-Word: 1E9                  Frequency: 3              
 Word: name                 Frequency: 7              
 
 Slot: 15675
 Word: patted               Frequency: 1              
-
-Slot: 15693
-Word: RabbitsPat           Frequency: 1              
 
 Slot: 15694
 Word: dogs                 Frequency: 3              
@@ -5437,7 +5220,7 @@ Slot: 15740
 Word: dismay               Frequency: 1              
 
 Slot: 15745
-Word: low                  Frequency: 11             
+Word: low                  Frequency: 12             
 
 Slot: 15749
 Word: Fourteenth           Frequency: 1              
@@ -5446,28 +5229,19 @@ Slot: 15753
 Word: busily               Frequency: 1              
 
 Slot: 15755
-Word: other                Frequency: 33             
-
-Slot: 15772
-Word: IXWHO                Frequency: 1              
-
-Slot: 15775
-Word: httpwwwgutenbergorg  Frequency: 1              
+Word: other                Frequency: 34             
 
 Slot: 15777
 Word: donation             Frequency: 1              
 
 Slot: 15778
-Word: oh                   Frequency: 1              
+Word: oh                   Frequency: 2              
 
 Slot: 15808
 Word: startled             Frequency: 2              
 
 Slot: 15851
 Word: eager                Frequency: 1              
-
-Slot: 15859
-Word: racecourse           Frequency: 1              
 
 Slot: 15864
 Word: crash                Frequency: 2              
@@ -5478,14 +5252,8 @@ Word: saying               Frequency: 2
 Slot: 15887
 Word: shifting             Frequency: 1              
 
-Slot: 15894
-Word: Theres               Frequency: 5              
-
 Slot: 15908
 Word: disk                 Frequency: 1              
-
-Slot: 15911
-Word: CheshireCats         Frequency: 1              
 
 Slot: 15924
 Word: Digging              Frequency: 1              
@@ -5498,9 +5266,6 @@ Word: RIGHT                Frequency: 1
 
 Slot: 15944
 Word: mixed                Frequency: 1              
-
-Slot: 15946
-Word: pepperbox            Frequency: 1              
 
 Slot: 15972
 Word: unsolicited          Frequency: 1              
@@ -5518,7 +5283,7 @@ Slot: 15993
 Word: entangled            Frequency: 2              
 
 Slot: 16003
-Word: day                  Frequency: 7              
+Word: day                  Frequency: 9              
 
 Slot: 16004
 Word: gave                 Frequency: 5              
@@ -5526,11 +5291,17 @@ Word: gave                 Frequency: 5
 Slot: 16017
 Word: SEND                 Frequency: 1              
 
+Slot: 16021
+Word: HOLE                 Frequency: 1              
+
 Slot: 16023
 Word: With                 Frequency: 1              
 
 Slot: 16027
-Word: B                    Frequency: 1              
+Word: B                    Frequency: 2              
+
+Slot: 16029
+Word: t                    Frequency: 50             
 
 Slot: 16039
 Word: me                   Frequency: 29             
@@ -5539,7 +5310,7 @@ Slot: 16044
 Word: Either               Frequency: 1              
 
 Slot: 16060
-Word: alone                Frequency: 3              
+Word: alone                Frequency: 4              
 
 Slot: 16063
 Word: dreadfully           Frequency: 2              
@@ -5556,12 +5327,6 @@ Word: Her                  Frequency: 2
 Slot: 16125
 Word: prove                Frequency: 1              
 
-Slot: 16129
-Word: wwwgutenbergorg      Frequency: 3              
-
-Slot: 16130
-Word: VIIA                 Frequency: 1              
-
 Slot: 16131
 Word: Illustration         Frequency: 26             
 
@@ -5571,8 +5336,8 @@ Word: knuckles             Frequency: 1
 Slot: 16164
 Word: answers              Frequency: 1              
 
-Slot: 16174
-Word: jurybox              Frequency: 2              
+Slot: 16184
+Word: tart                 Frequency: 1              
 
 Slot: 16189
 Word: lips                 Frequency: 1              
@@ -5581,19 +5346,16 @@ Slot: 16210
 Word: upstairs             Frequency: 1              
 
 Slot: 16217
-Word: voice                Frequency: 21             
+Word: voice                Frequency: 22             
 
 Slot: 16219
-Word: away                 Frequency: 17             
+Word: away                 Frequency: 18             
 
 Slot: 16221
 Word: plate                Frequency: 1              
 
 Slot: 16239
 Word: creatures            Frequency: 3              
-
-Slot: 16240
-Word: IDOWN                Frequency: 1              
 
 Slot: 16241
 Word: several              Frequency: 3              
@@ -5606,6 +5368,9 @@ Word: been                 Frequency: 11
 
 Slot: 16288
 Word: alteration           Frequency: 1              
+
+Slot: 16309
+Word: hole                 Frequency: 3              
 
 Slot: 16312
 Word: trouble              Frequency: 4              
@@ -5623,7 +5388,7 @@ Slot: 16353
 Word: pages                Frequency: 1              
 
 Slot: 16366
-Word: croquet              Frequency: 6              
+Word: croquet              Frequency: 8              
 
 Slot: 16369
 Word: effort               Frequency: 2              
@@ -5663,9 +5428,6 @@ Word: generations          Frequency: 2
 Slot: 16487
 Word: delighted            Frequency: 2              
 
-Slot: 16507
-Word: aloneCatch           Frequency: 1              
-
 Slot: 16511
 Word: very                 Frequency: 40             
 
@@ -5681,12 +5443,15 @@ Word: grin                 Frequency: 1
 Slot: 16532
 Word: generally            Frequency: 3              
 
+Slot: 16551
+Word: kid                  Frequency: 5              
+
 Slot: 16554
 Word: given                Frequency: 1              
 Word: KING                 Frequency: 1              
 
 Slot: 16564
-Word: by                   Frequency: 44             
+Word: by                   Frequency: 45             
 
 Slot: 16569
 Word: shriek               Frequency: 2              
@@ -5697,11 +5462,11 @@ Word: notice               Frequency: 6
 Slot: 16608
 Word: moral                Frequency: 2              
 
+Slot: 16612
+Word: ve                   Frequency: 14             
+
 Slot: 16614
 Word: If                   Frequency: 19             
-
-Slot: 16622
-Word: dont                 Frequency: 14             
 
 Slot: 16623
 Word: morning              Frequency: 3              
@@ -5710,16 +5475,16 @@ Slot: 16625
 Word: whatever             Frequency: 2              
 
 Slot: 16626
-Word: box                  Frequency: 2              
+Word: box                  Frequency: 6              
 
 Slot: 16630
 Word: driest               Frequency: 1              
 
-Slot: 16637
-Word: cant                 Frequency: 8              
-
 Slot: 16640
 Word: hoping               Frequency: 1              
+
+Slot: 16643
+Word: Brandy               Frequency: 1              
 
 Slot: 16644
 Word: lieu                 Frequency: 2              
@@ -5737,7 +5502,7 @@ Slot: 16699
 Word: exclusion            Frequency: 1              
 
 Slot: 16708
-Word: to                   Frequency: 320            
+Word: to                   Frequency: 325            
 
 Slot: 16710
 Word: lovely               Frequency: 2              
@@ -5749,7 +5514,7 @@ Slot: 16720
 Word: hearts               Frequency: 1              
 
 Slot: 16724
-Word: garden               Frequency: 13             
+Word: garden               Frequency: 14             
 
 Slot: 16740
 Word: finger               Frequency: 1              
@@ -5775,9 +5540,6 @@ Word: Such                 Frequency: 1
 Slot: 16773
 Word: caught               Frequency: 2              
 
-Slot: 16789
-Word: 190338txt            Frequency: 1              
-
 Slot: 16793
 Word: profit               Frequency: 1              
 
@@ -5795,10 +5557,7 @@ Slot: 16834
 Word: peeped               Frequency: 3              
 
 Slot: 16842
-Word: then                 Frequency: 25             
-
-Slot: 16843
-Word: RABBITHOLE           Frequency: 1              
+Word: then                 Frequency: 26             
 
 Slot: 16852
 Word: By                   Frequency: 3              
@@ -5815,11 +5574,11 @@ Word: tail                 Frequency: 3
 Slot: 16911
 Word: dried                Frequency: 1              
 
-Slot: 16928
-Word: wasnt                Frequency: 1              
-
 Slot: 16938
 Word: Your                 Frequency: 5              
+
+Slot: 16940
+Word: hadn                 Frequency: 1              
 
 Slot: 16951
 Word: reasonable           Frequency: 1              
@@ -5852,17 +5611,17 @@ Slot: 17005
 Word: shoes                Frequency: 1              
 Word: forgotten            Frequency: 2              
 
-Slot: 17031
-Word: headBrandy           Frequency: 1              
-
 Slot: 17033
-Word: baby                 Frequency: 5              
+Word: baby                 Frequency: 6              
 
 Slot: 17050
 Word: passionate           Frequency: 1              
 
 Slot: 17078
 Word: derived              Frequency: 1              
+
+Slot: 17082
+Word: VIII                 Frequency: 1              
 
 Slot: 17085
 Word: untwist              Frequency: 1              
@@ -5874,6 +5633,9 @@ Word: late                 Frequency: 4
 Slot: 17097
 Word: nibbled              Frequency: 2              
 
+Slot: 17108
+Word: pgdp                 Frequency: 2              
+
 Slot: 17115
 Word: smaller              Frequency: 1              
 
@@ -5883,17 +5645,17 @@ Word: beasts               Frequency: 1
 Slot: 17139
 Word: bringing             Frequency: 1              
 
-Slot: 17146
-Word: httpwwwgutenbergorg190319033 Frequency: 1              
-
-Slot: 17151
-Word: 1F5                  Frequency: 1              
+Slot: 17144
+Word: rat                  Frequency: 1              
 
 Slot: 17154
 Word: speaker              Frequency: 1              
 
 Slot: 17165
 Word: Thus                 Frequency: 1              
+
+Slot: 17172
+Word: shouldn              Frequency: 1              
 
 Slot: 17187
 Word: prosecute            Frequency: 1              
@@ -5903,7 +5665,6 @@ Word: soothing             Frequency: 1
 
 Slot: 17201
 Word: claim                Frequency: 1              
-Word: isnt                 Frequency: 1              
 
 Slot: 17216
 Word: panting              Frequency: 1              
@@ -5918,9 +5679,6 @@ Slot: 17248
 Word: everybody            Frequency: 1              
 Word: speed                Frequency: 1              
 
-Slot: 17260
-Word: VIPIG                Frequency: 1              
-
 Slot: 17270
 Word: lit                  Frequency: 1              
 
@@ -5928,7 +5686,7 @@ Slot: 17280
 Word: keeping              Frequency: 3              
 
 Slot: 17301
-Word: 2                    Frequency: 1              
+Word: 2                    Frequency: 3              
 
 Slot: 17310
 Word: discontinue          Frequency: 1              
@@ -5961,16 +5719,14 @@ Slot: 17436
 Word: FOUNDATION           Frequency: 1              
 
 Slot: 17437
-Word: queer                Frequency: 1              
+Word: queer                Frequency: 3              
 
 Slot: 17456
+Word: U                    Frequency: 3              
 Word: difficulty           Frequency: 2              
 
 Slot: 17462
 Word: possibly             Frequency: 2              
-
-Slot: 17470
-Word: waistcoatpocket      Frequency: 2              
 
 Slot: 17475
 Word: contact              Frequency: 3              
@@ -6006,29 +5762,26 @@ Word: fairly               Frequency: 1
 Slot: 17503
 Word: table                Frequency: 14             
 
-Slot: 17504
-Word: notebook             Frequency: 1              
-
 Slot: 17509
 Word: complained           Frequency: 1              
+
+Slot: 17549
+Word: Sha                  Frequency: 1              
 
 Slot: 17551
 Word: thunder              Frequency: 1              
 
 Slot: 17552
-Word: used                 Frequency: 3              
+Word: used                 Frequency: 4              
 
 Slot: 17555
 Word: mad                  Frequency: 3              
-
-Slot: 17562
-Word: 1B                   Frequency: 1              
 
 Slot: 17566
 Word: In                   Frequency: 7              
 
 Slot: 17576
-Word: race                 Frequency: 2              
+Word: race                 Frequency: 5              
 
 Slot: 17577
 Word: leading              Frequency: 1              
@@ -6041,9 +5794,6 @@ Word: nine                 Frequency: 3
 
 Slot: 17629
 Word: bristling            Frequency: 1              
-
-Slot: 17630
-Word: Rabbits              Frequency: 2              
 
 Slot: 17635
 Word: floor                Frequency: 2              
@@ -6074,12 +5824,14 @@ Word: detach               Frequency: 1
 
 Slot: 17717
 Word: footman              Frequency: 2              
+Word: DOWN                 Frequency: 1              
 
 Slot: 17732
 Word: problem              Frequency: 1              
 
 Slot: 17737
 Word: provisions           Frequency: 1              
+Word: Caucus               Frequency: 2              
 Word: printed              Frequency: 3              
 
 Slot: 17741
@@ -6116,9 +5868,6 @@ Word: edge                 Frequency: 2
 Slot: 17791
 Word: statements           Frequency: 1              
 
-Slot: 17795
-Word: itit                 Frequency: 1              
-
 Slot: 17796
 Word: freely               Frequency: 4              
 
@@ -6129,7 +5878,7 @@ Slot: 17808
 Word: ventured             Frequency: 2              
 
 Slot: 17823
-Word: night                Frequency: 1              
+Word: night                Frequency: 2              
 
 Slot: 17834
 Word: changes              Frequency: 1              
@@ -6149,6 +5898,9 @@ Word: Newby                Frequency: 1
 Slot: 17927
 Word: kept                 Frequency: 6              
 
+Slot: 17933
+Word: d                    Frequency: 5              
+
 Slot: 17938
 Word: stupid               Frequency: 1              
 
@@ -6166,6 +5918,9 @@ Word: corner               Frequency: 3
 
 Slot: 17969
 Word: turkey               Frequency: 1              
+
+Slot: 17997
+Word: bear                 Frequency: 1              
 
 Slot: 18002
 Word: attempt              Frequency: 1              
@@ -6192,12 +5947,6 @@ Word: weary                Frequency: 1
 Slot: 18047
 Word: come                 Frequency: 8              
 
-Slot: 18052
-Word: Alices               Frequency: 6              
-
-Slot: 18055
-Word: 1E8                  Frequency: 4              
-
 Slot: 18063
 Word: better               Frequency: 3              
 
@@ -6209,7 +5958,6 @@ Word: method               Frequency: 1
 
 Slot: 18097
 Word: collection           Frequency: 4              
-Word: threelegged          Frequency: 1              
 
 Slot: 18099
 Word: whisper              Frequency: 1              
@@ -6218,7 +5966,6 @@ Slot: 18102
 Word: offers               Frequency: 1              
 
 Slot: 18104
-Word: itll                 Frequency: 2              
 Word: ADVENTURES           Frequency: 2              
 
 Slot: 18111
@@ -6226,6 +5973,9 @@ Word: start                Frequency: 1
 
 Slot: 18119
 Word: field                Frequency: 1              
+
+Slot: 18129
+Word: forty                Frequency: 1              
 
 Slot: 18138
 Word: favored              Frequency: 1              
@@ -6251,7 +6001,7 @@ Slot: 18197
 Word: learn                Frequency: 1              
 
 Slot: 18202
-Word: looking              Frequency: 11             
+Word: looking              Frequency: 13             
 Word: AND                  Frequency: 4              
 
 Slot: 18204
@@ -6262,12 +6012,6 @@ Word: legally              Frequency: 1
 
 Slot: 18227
 Word: shall                Frequency: 5              
-
-Slot: 18230
-Word: firstverdict         Frequency: 1              
-
-Slot: 18252
-Word: Caucusrace           Frequency: 2              
 
 Slot: 18275
 Word: GABRIEL              Frequency: 2              
@@ -6281,12 +6025,8 @@ Word: wanted               Frequency: 1
 Slot: 18306
 Word: fifth                Frequency: 1              
 
-Slot: 18310
-Word: hell                 Frequency: 1              
-
 Slot: 18311
 Word: include              Frequency: 1              
-Word: seebeing             Frequency: 1              
 Word: breath               Frequency: 2              
 
 Slot: 18314
@@ -6318,9 +6058,6 @@ Word: cried                Frequency: 11
 
 Slot: 18403
 Word: remain               Frequency: 1              
-
-Slot: 18419
-Word: Itsits               Frequency: 1              
 
 Slot: 18424
 Word: hurt                 Frequency: 3              
@@ -6355,6 +6092,9 @@ Word: FROM                 Frequency: 1
 Slot: 18512
 Word: picking              Frequency: 1              
 
+Slot: 18516
+Word: IX                   Frequency: 1              
+
 Slot: 18527
 Word: Taking               Frequency: 1              
 
@@ -6364,14 +6104,11 @@ Word: eBooks               Frequency: 7
 Slot: 18552
 Word: wood                 Frequency: 6              
 
-Slot: 18562
-Word: gardenhow            Frequency: 1              
-
 Slot: 18581
 Word: puzzled              Frequency: 1              
 
 Slot: 18587
-Word: can                  Frequency: 18             
+Word: can                  Frequency: 26             
 
 Slot: 18601
 Word: hurrying             Frequency: 1              
@@ -6381,6 +6118,9 @@ Word: compliance           Frequency: 4
 
 Slot: 18603
 Word: soldier              Frequency: 1              
+
+Slot: 18611
+Word: pglaf                Frequency: 7              
 
 Slot: 18612
 Word: afterwards           Frequency: 1              
@@ -6396,7 +6136,7 @@ Slot: 18631
 Word: thump                Frequency: 2              
 
 Slot: 18632
-Word: being                Frequency: 2              
+Word: being                Frequency: 3              
 
 Slot: 18635
 Word: cur                  Frequency: 1              
@@ -6462,6 +6202,9 @@ Word: nervous              Frequency: 1
 Slot: 18775
 Word: tunnel               Frequency: 1              
 
+Slot: 18777
+Word: 596                  Frequency: 1              
+
 Slot: 18779
 Word: Have                 Frequency: 1              
 
@@ -6498,6 +6241,9 @@ Word: carrying             Frequency: 2
 Slot: 18875
 Word: round                Frequency: 17             
 
+Slot: 18877
+Word: 8859                 Frequency: 1              
+
 Slot: 18883
 Word: However              Frequency: 7              
 
@@ -6532,7 +6278,7 @@ Slot: 18947
 Word: hastily              Frequency: 8              
 
 Slot: 18950
-Word: GUTENBERG            Frequency: 3              
+Word: GUTENBERG            Frequency: 4              
 
 Slot: 18954
 Word: blows                Frequency: 1              
@@ -6543,17 +6289,11 @@ Word: hated                Frequency: 1
 Slot: 18966
 Word: opportunities        Frequency: 1              
 
-Slot: 18971
-Word: GUTENBERGtm          Frequency: 1              
-
 Slot: 18982
 Word: surprised            Frequency: 4              
 
 Slot: 18983
-Word: Cat                  Frequency: 6              
-
-Slot: 18997
-Word: Lets                 Frequency: 1              
+Word: Cat                  Frequency: 9              
 
 Slot: 18998
 Word: Mary                 Frequency: 4              
@@ -6587,10 +6327,7 @@ Slot: 19079
 Word: included             Frequency: 3              
 
 Slot: 19080
-Word: good                 Frequency: 8              
-
-Slot: 19085
-Word: toto                 Frequency: 1              
+Word: good                 Frequency: 9              
 
 Slot: 19092
 Word: terms                Frequency: 19             
@@ -6626,7 +6363,7 @@ Slot: 19230
 Word: shouting             Frequency: 2              
 
 Slot: 19234
-Word: ground               Frequency: 2              
+Word: ground               Frequency: 4              
 
 Slot: 19252
 Word: BUT                  Frequency: 1              
@@ -6652,6 +6389,12 @@ Word: money                Frequency: 3
 Slot: 19289
 Word: when                 Frequency: 32             
 
+Slot: 19291
+Word: yours                Frequency: 1              
+
+Slot: 19295
+Word: salt                 Frequency: 2              
+
 Slot: 19296
 Word: cushion              Frequency: 1              
 
@@ -6670,8 +6413,11 @@ Word: goes                 Frequency: 2
 Slot: 19324
 Word: explain              Frequency: 2              
 
+Slot: 19360
+Word: E                    Frequency: 22             
+
 Slot: 19361
-Word: states               Frequency: 5              
+Word: states               Frequency: 4              
 
 Slot: 19371
 Word: morsel               Frequency: 1              
@@ -6703,6 +6449,9 @@ Word: alas                 Frequency: 3
 Slot: 19425
 Word: blow                 Frequency: 1              
 
+Slot: 19429
+Word: fundraising          Frequency: 1              
+
 Slot: 19431
 Word: extent               Frequency: 1              
 
@@ -6723,9 +6472,6 @@ Word: formats              Frequency: 2
 
 Slot: 19481
 Word: instantly            Frequency: 2              
-
-Slot: 19484
-Word: 1E7                  Frequency: 3              
 
 Slot: 19493
 Word: eBook                Frequency: 6              
@@ -6759,14 +6505,16 @@ Slot: 19515
 Word: data                 Frequency: 1              
 
 Slot: 19520
-Word: say                  Frequency: 12             
+Word: say                  Frequency: 13             
+
+Slot: 19527
+Word: org                  Frequency: 13             
 
 Slot: 19529
 Word: 84116                Frequency: 1              
 Word: often                Frequency: 2              
 
 Slot: 19532
-Word: 1F2                  Frequency: 1              
 Word: Spehar               Frequency: 2              
 
 Slot: 19535
@@ -6793,13 +6541,12 @@ Word: includes             Frequency: 1
 
 Slot: 19570
 Word: redistribution       Frequency: 1              
-Word: queershaped          Frequency: 1              
 
 Slot: 19572
-Word: were                 Frequency: 32             
+Word: were                 Frequency: 30             
 
 Slot: 19573
-Word: tree                 Frequency: 4              
+Word: tree                 Frequency: 6              
 
 Slot: 19583
 Word: hatching             Frequency: 1              
@@ -6807,9 +6554,6 @@ Word: hatching             Frequency: 1
 Slot: 19588
 Word: Mississippi          Frequency: 1              
 Word: or                   Frequency: 106            
-
-Slot: 19592
-Word: babythe              Frequency: 1              
 
 Slot: 19610
 Word: turning              Frequency: 6              
@@ -6823,9 +6567,6 @@ Word: UNDER                Frequency: 1
 Slot: 19637
 Word: IMPLIED              Frequency: 1              
 
-Slot: 19649
-Word: wont                 Frequency: 6              
-
 Slot: 19658
 Word: cannot               Frequency: 5              
 
@@ -6835,17 +6576,11 @@ Word: joined               Frequency: 1
 Slot: 19669
 Word: thirty               Frequency: 1              
 
-Slot: 19679
-Word: Shell                Frequency: 1              
-
 Slot: 19682
-Word: 3                    Frequency: 3              
+Word: 3                    Frequency: 11             
 
 Slot: 19686
 Word: pairs                Frequency: 1              
-
-Slot: 19687
-Word: CheshirePuss         Frequency: 1              
 
 Slot: 19712
 Word: BE                   Frequency: 1              
@@ -6862,7 +6597,7 @@ Slot: 19765
 Word: Here                 Frequency: 5              
 
 Slot: 19780
-Word: cats                 Frequency: 7              
+Word: cats                 Frequency: 8              
 
 Slot: 19837
 Word: receipt              Frequency: 2              
@@ -6895,13 +6630,7 @@ Slot: 19933
 Word: sizes                Frequency: 1              
 
 Slot: 19939
-Word: animal               Frequency: 1              
-
-Slot: 19943
-Word: 1A                   Frequency: 1              
-
-Slot: 19947
-Word: Im                   Frequency: 19             
+Word: animal               Frequency: 2              
 
 Slot: 19949
 Word: associated           Frequency: 8              

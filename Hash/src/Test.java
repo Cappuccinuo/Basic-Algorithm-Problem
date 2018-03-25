@@ -16,9 +16,9 @@ public class Test {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        MyHashMap<Word, Integer> map = new MyHashMap<>(20000);
+        MyHashMap<Word, Integer> map = new MyHashMap<>(2000);
         String regex = "[【】、.。,，\"!--;:?\'\\]\\[\\/_@]";
-        
+
         int wordCount = 0;
         try {
             BufferedReader br = new BufferedReader(new FileReader("alice.txt"));
@@ -47,8 +47,15 @@ public class Test {
         System.out.println(map.countAllCollisions());
         System.out.println(map.list_all_keys());
 
-        Word a = new Word("will");
+        //Word a = new Word("will");
         //map.increase(a);
+        Word a = new Word("copyright");
+        for (int i = 0; i < 5; i++) {
+            map.increase(a);
+        }
+        map.delete(a);
+        Object b = map.find(a);
+        System.out.println(b == null);
 
         map.printBucket();
     }

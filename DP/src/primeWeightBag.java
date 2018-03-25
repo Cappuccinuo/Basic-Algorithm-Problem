@@ -56,7 +56,7 @@ public class primeWeightBag {
                 }
             }
         }
-        
+        /*
         for (int i = 0; i <= 12; i++) {
             System.out.print(i + " ");
         }
@@ -67,13 +67,14 @@ public class primeWeightBag {
             }
             System.out.println();
         }
-            
+        */
 
         for (int i = 0; i <= maxWeight; i++) {
             if (isPrime[i]) {
                 count += dp[len][i];
             }
         }
+
         return count;
     }
 
@@ -108,6 +109,9 @@ public class primeWeightBag {
         9991, 9992, 9993, 9994, 9995, 9996, 9997, 9998, 9999};// 4814999
 
         int[] bag10 = new int[]{1, 1, 1, 1, 1, 2, 3};
+        assert(numberOfPrimeWeight(bag1) == 4);
+        assert(numberOfPrimeWeight(bag2) == 0);
+        assert(numberOfPrimeWeight(bag3) == 54);
 
         System.out.println(numberOfPrimeWeight(bag5));
     }

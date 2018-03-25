@@ -15,11 +15,6 @@ public class BinomialHeap {
         return size;
     }
 
-    public void makeEmpty() {
-        Nodes = null;
-        size = 0;
-    }
-
     /*
         Method: Minimum
         To get the minimum of the heap, just traverse the list of root of
@@ -144,7 +139,11 @@ public class BinomialHeap {
         }
     }
 
-
-
-
+    public static void main(String[] args) {
+        BinomialHeap bh = new BinomialHeap();
+        bh.insert(1);
+        System.out.println(bh.minimum());
+        bh.insert(2);
+        System.out.println(bh.Nodes.child.key);
+    }
 }

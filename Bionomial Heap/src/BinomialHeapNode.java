@@ -84,4 +84,28 @@ public class BinomialHeapNode {
                 ((child == null) ? 0 : child.getSize()) +
                 ((sibling == null) ? 0 : sibling.getSize()));
     }
+
+    public BinomialHeapNode findNodeWithKey(int value) {
+        BinomialHeapNode current = this;
+        BinomialHeapNode node = null;
+        while (current != null) {
+            if (current.key == value) {
+                node = current;
+                break;
+            }
+            if (current.child == null) {
+                current = current.sibling;
+            }
+            else {
+                node = current.child.findNodeWithKey(value);
+                if (node == null) {
+                    current = current.sibling;
+                }
+                else {
+                    break;
+                }
+            }
+        }
+        return node;
+    }
 }

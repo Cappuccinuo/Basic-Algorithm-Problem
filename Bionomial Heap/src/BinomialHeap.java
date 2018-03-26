@@ -42,15 +42,48 @@ public class BinomialHeap {
             size++;
         }
     }
-
+    /*
+        Method: Delete
+        First reduce the key to minimum - 1, then call extractMin()
+     */
     public void delete(int value) {
-        return;
+        if ((Nodes != null) && (Nodes.findNodeWithKey(value) != null)) {
+            decreaseKeyValue(value, minimum() - 1);
+            extractMin();
+        }
     }
 
+    /*
+        Method: DecreaseKeyValue
+        Compare the decreases key with its parent and if parent's key is more,
+        we swap keys and recur for parent. We stop when we either reach a node
+        whose parent has smaller key or we hit the root node.
+        Time Complexity: O(log n)
+     */
     public void decreaseKeyValue(int old_value, int new_value) {
-        return;
+        BinomialHeapNode current = Nodes.findNodeWithKey(old_value);
+        if (current == null) {
+            return;
+        }
+        current.key = new_value;
+        BinomialHeapNode currentParent = current.parent;
+
+        while ((currentParent != null) && (current.key < currentParent.key)) {
+            int temp = current.key;
+            current.key = currentParent.key;
+            currentParent.key = temp;
+            current = currentParent;
+            currentParent = currentParent.parent;
+        }
     }
 
+    /*
+        Method: ExtractMin
+        First call minimum to find the minimum key, then remove the node and
+        create a new heap by connecting all subtrees of the removed minimum node.
+        Finally we call union on original heap and newly create heap.
+        Time Complexity: O(logn)
+     */
     public int extractMin() {
         if (Nodes == null) {
             System.out.println("Empty heap.");
@@ -58,8 +91,9 @@ public class BinomialHeap {
         }
         BinomialHeapNode current = Nodes;
         BinomialHeapNode prev = null;
-        BinomialHeapNode minNode = Nodes.findMinNode();
-        while (current.key != minNode.key) {
+        int minValue = minimum();
+        //BinomialHeapNode minNode = Nodes.findMinNode();
+        while (current.key != minValue) {
             prev = current;
             current = current.sibling;
         }
@@ -90,7 +124,7 @@ public class BinomialHeap {
                 size = Nodes.getSize();
             }
         }
-        return minNode.key;
+        return minValue;
     }
 
     /* Helper function */

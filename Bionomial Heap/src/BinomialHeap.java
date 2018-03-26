@@ -52,7 +52,45 @@ public class BinomialHeap {
     }
 
     public int extractMin() {
-        return 0;
+        if (Nodes == null) {
+            System.out.println("Empty heap.");
+            return -1;
+        }
+        BinomialHeapNode current = Nodes;
+        BinomialHeapNode prev = null;
+        BinomialHeapNode minNode = Nodes.findMinNode();
+        while (current.key != minNode.key) {
+            prev = current;
+            current = current.sibling;
+        }
+
+        if (prev == null) {
+            Nodes = current.sibling;
+        }
+        else {
+            prev.sibling = current.sibling;
+        }
+        current = current.child;
+        BinomialHeapNode temp = current;
+        while (current != null) {
+            current.parent = null;
+            current = current.sibling;
+        }
+
+        if ((Nodes == null) && (temp == null)) {
+            size = 0;
+        }
+        else {
+            if ((Nodes == null) && (temp != null)) {
+                Nodes = temp.reverse(null);
+                size = temp.getSize();
+            }
+            else {
+                union(temp.reverse(null));
+                size = Nodes.getSize();
+            }
+        }
+        return minNode.key;
     }
 
     /* Helper function */
@@ -106,13 +144,17 @@ public class BinomialHeap {
         BinomialHeapNode next = Nodes.sibling;
 
         while (next != null) {
-            if ((current.degree != next.degree) || ((next.sibling != null) &&
-                    (next.sibling.degree == current.degree))) {
+            // Case 1: Orders of x and next-x are not same, we simply move ahead
+            // Case 2: Orders of x and next-x are same, order of next-next-x is
+            // also same, move ahead
+            if ((current.degree != next.degree) ||
+                    ((next.sibling != null) && (next.sibling.degree == current.degree))) {
                 prev = current;
                 current = next;
             }
-
             else {
+                // Case 3: If key of x is smaller than or equal to key of next-x,
+                // then make next-x as a child of x by linking it with x.
                 if (current.key <= next.key) {
                     current.sibling = next.sibling;
                     next.parent = current;
@@ -120,6 +162,7 @@ public class BinomialHeap {
                     current.child = next;
                     current.degree++;
                 }
+                // Case 4: If key of x is greater, then make x as child of next.
                 else {
                     if (prev == null) {
                         Nodes = next;
@@ -145,5 +188,8 @@ public class BinomialHeap {
         System.out.println(bh.minimum());
         bh.insert(2);
         System.out.println(bh.Nodes.child.key);
+        bh.extractMin();
+        System.out.println(bh.size);
+        System.out.println(bh.Nodes.key);
     }
 }

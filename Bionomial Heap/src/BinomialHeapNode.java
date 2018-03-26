@@ -66,4 +66,22 @@ public class BinomialHeapNode {
         }
         return y;
     }
+
+    public BinomialHeapNode reverse(BinomialHeapNode sib) {
+        BinomialHeapNode result;
+        if (sibling != null) {
+            result = sibling.reverse(this);
+        }
+        else {
+            result = this;
+        }
+        sibling = sib;
+        return result;
+    }
+
+    public int getSize() {
+        return (1 +
+                ((child == null) ? 0 : child.getSize()) +
+                ((sibling == null) ? 0 : sibling.getSize()));
+    }
 }

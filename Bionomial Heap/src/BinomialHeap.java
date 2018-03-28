@@ -1,18 +1,18 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
 public class BinomialHeap {
-    private BinomialHeapNode Nodes;
-    private int size;
+    public BinomialHeapNode Nodes;
+    public int size;
 
     public BinomialHeap() {
         Nodes = null;
         size = 0;
     }
 
-    public boolean isEmpty() {
-        return Nodes == null;
-    }
-
-    public int getSize() {
-        return size;
+    public BinomialHeap(BinomialHeapNode node) {
+        Nodes = node;
+        size = node.getSize();
     }
 
     /*
@@ -29,7 +29,8 @@ public class BinomialHeap {
 
     /*
         Method: Insert
-        Insert a key to Binomial Heap. This operation
+        Insert a key to Binomial Heap. This operation first creates a Binomial
+        Heap with single key, then calls union on H and new Binomial Heap
      */
     public void insert(int value) {
         BinomialHeapNode node = new BinomialHeapNode(value);
@@ -44,7 +45,7 @@ public class BinomialHeap {
     }
     /*
         Method: Delete
-        First reduce the key to minimum - 1, then call extractMin()
+        First reduce the key to minimum - 1 || -infinity, then call extractMin()
      */
     public void delete(int value) {
         if ((Nodes != null) && (Nodes.findNodeWithKey(value) != null)) {
@@ -63,6 +64,7 @@ public class BinomialHeap {
     public void decreaseKeyValue(int old_value, int new_value) {
         BinomialHeapNode current = Nodes.findNodeWithKey(old_value);
         if (current == null) {
+            System.out.println("No such value");
             return;
         }
         current.key = new_value;
@@ -128,7 +130,7 @@ public class BinomialHeap {
     }
 
     /* Helper function */
-
+    // Merge the two Heaps in non-decreasing order of degrees
     private void merge(BinomialHeapNode binHeap) {
         BinomialHeapNode h1 = Nodes;
         BinomialHeapNode h2 = binHeap;
@@ -171,7 +173,7 @@ public class BinomialHeap {
         }
     }
 
-    private void union(BinomialHeapNode binHeap) {
+    public void union(BinomialHeapNode binHeap) {
         merge(binHeap);
         BinomialHeapNode prev = null;
         BinomialHeapNode current = Nodes;
@@ -216,14 +218,25 @@ public class BinomialHeap {
         }
     }
 
-    public static void main(String[] args) {
-        BinomialHeap bh = new BinomialHeap();
-        bh.insert(1);
-        System.out.println(bh.minimum());
-        bh.insert(2);
-        System.out.println(bh.Nodes.child.key);
-        bh.extractMin();
-        System.out.println(bh.size);
-        System.out.println(bh.Nodes.key);
+    public void printHeap(BinomialHeapNode node) {
+        if (node == this.Nodes) {
+            System.out.println("key=" + node.key +
+                    " ,degree=" + node.degree +
+                    " ,status=root");
+        }
+        if (node.child != null) {
+            System.out.println("key=" + node.child.key +
+                    " ,degree=" + node.child.degree +
+                    " ,status=child" +
+                    " ,previous=" + node.key);
+            printHeap(node.child);
+        }
+        if (node.sibling != null) {
+            System.out.println("key=" + node.sibling.key +
+                    " ,degree=" + node.sibling.degree +
+                    " ,status=sibling" +
+                    " ,previous=" + node.key);
+            printHeap(node.sibling);
+        }
     }
 }
